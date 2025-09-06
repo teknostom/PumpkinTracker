@@ -188,13 +188,12 @@
         async function loadData() {
             try {
                 // Replace with your actual JSON file path
-                const response = await fetch('./outputs/pumpkin_block_analysis.json');
+                const response = await fetch('./outputs/pumpkin_blocks_analysis.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 jsonData = await response.json();
                 classData = jsonData.classes;
-                const overallStats = jsonData.percentage_implemented;
                 filteredData = [...classData];
                 
                 document.getElementById('loading').style.display = 'none';
