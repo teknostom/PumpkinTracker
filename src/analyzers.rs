@@ -19,6 +19,7 @@ pub fn analyze_implementation<T: MinecraftComponent>(
         .filter(|c| c.is_real_class)
         .filter(|c| c.methods.len() > 0)
         .filter(|c| c.class_name != "AbstractBlockState")
+        .filter(|c| c.class_name.ends_with("BlockEntity"))
         .collect();
 
     println!(
