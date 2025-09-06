@@ -2,408 +2,82 @@
   "component_type": "blocks",
   "classes": [
     {
-      "class_name": "SoulSandBlock",
+      "class_name": "BarrierBlock",
       "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CobwebBlock",
+      "methods": [
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "StemBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "RedstoneLampBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TargetBlock",
+      "methods": [
+        {
+          "method_name": "onProjectileHit",
+          "status": "NotImplemented"
+        },
         {
           "method_name": "scheduledTick",
           "status": "NotImplemented"
         },
         {
-          "method_name": "getStateForNeighborUpdate",
+          "method_name": "getWeakRedstonePower",
           "status": "NotImplemented"
         },
         {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "OxidizablePaneBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "PistonHeadBlock",
-      "methods": [
-        {
-          "method_name": "onBreak",
+          "method_name": "emitsRedstonePower",
           "status": "Implemented"
         },
         {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
+          "method_name": "onBlockAdded",
           "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 20.0
-    },
-    {
-      "class_name": "SpawnerBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BellBlockEntity",
-      "methods": [
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BeehiveBlock",
-      "methods": [
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onExploded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBreak",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BrewingStandBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "LilyPadBlock",
-      "methods": [
-        {
-          "method_name": "onEntityCollision",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "TorchflowerBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SeaPickleBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "ShulkerBoxBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onBreak",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 28.57143
-    },
-    {
-      "class_name": "CampfireBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onProjectileHit",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 50.0
-    },
-    {
-      "class_name": "LightBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CarvedPumpkinBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 50.0
-    },
-    {
-      "class_name": "BarrelBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 28.57143
-    },
-    {
-      "class_name": "SculkCatalystBlock",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BellBlock",
-      "methods": [
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onProjectileHit",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onExploded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "OxidizableBulbBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "JukeboxBlockEntity",
-      "methods": [
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SmallDripleafBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
     },
     {
       "class_name": "LeverBlock",
@@ -436,7 +110,291 @@
       "percentage_implemented": 83.33333
     },
     {
-      "class_name": "OxidizableCopperChestBlock",
+      "class_name": "CrafterBlock",
+      "methods": [
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SoulFireBlock",
+      "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "SmallDripleafBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CandleCakeBlock",
+      "methods": [
+        {
+          "method_name": "onUseWithItem",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 33.333336
+    },
+    {
+      "class_name": "OxidizableBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "WallSignBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "HoneyBlock",
+      "methods": [
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BannerBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 33.333336
+    },
+    {
+      "class_name": "MushroomBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "PitcherCropBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "FlowerPotBlock",
+      "methods": [
+        {
+          "method_name": "onUseWithItem",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 40.0
+    },
+    {
+      "class_name": "HopperBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 33.333336
+    },
+    {
+      "class_name": "CocoaBlock",
       "methods": [
         {
           "method_name": "hasRandomTicks",
@@ -444,6 +402,126 @@
         },
         {
           "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TntBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBreak",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onProjectileHit",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SculkCatalystBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "DriedGhastBlock",
+      "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SnifferEggBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "OxidizablePaneBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SporeBlossomBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
           "status": "NotImplemented"
         }
       ],
@@ -492,67 +570,23 @@
       "percentage_implemented": 11.111112
     },
     {
-      "class_name": "ObserverBlock",
+      "class_name": "DecoratedPotBlock",
       "methods": [
         {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
           "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStrongRedstonePower",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onBlockAdded",
           "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "Implemented"
         },
         {
           "method_name": "getPlacementState",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 87.5
-    },
-    {
-      "class_name": "OxidizableStairsBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
           "status": "NotImplemented"
         },
         {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "ChiseledBookshelfBlock",
-      "methods": [
-        {
           "method_name": "onUseWithItem",
-          "status": "Implemented"
+          "status": "NotImplemented"
         },
         {
           "method_name": "onUse",
-          "status": "Implemented"
+          "status": "NotImplemented"
         },
         {
           "method_name": "createBlockEntity",
@@ -560,190 +594,6 @@
         },
         {
           "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 57.14286
-    },
-    {
-      "class_name": "ComposterBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUseWithItem",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 66.66667
-    },
-    {
-      "class_name": "BlastFurnaceBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "EndGatewayBlockEntity",
-      "methods": [
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "MushroomPlantBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 50.0
-    },
-    {
-      "class_name": "MagmaBlock",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "OxidizableLanternBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CandleCakeBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 33.333336
-    },
-    {
-      "class_name": "EnchantingTableBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TurtleEggBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TntBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
           "status": "NotImplemented"
         },
         {
@@ -751,435 +601,7 @@
           "status": "NotImplemented"
         },
         {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
           "method_name": "onProjectileHit",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SpongeBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "EndGatewayBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "DecoratedPotBlockEntity",
-      "methods": [
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "HangingMossBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "FireBlock",
-      "methods": [
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 60.000004
-    },
-    {
-      "class_name": "NetherWartBlock",
-      "methods": [
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "FurnaceBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "AnvilBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 50.0
-    },
-    {
-      "class_name": "WallBannerBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "FlowerbedBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "WallBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "WallSignBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BigDripleafBlock",
-      "methods": [
-        {
-          "method_name": "onProjectileHit",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "WetSpongeBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CoralBlockBlock",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SnowBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "JigsawBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "HoneyBlock",
-      "methods": [
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "PowderSnowBlock",
-      "methods": [
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "FrogspawnBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CakeBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 33.333336
-    },
-    {
-      "class_name": "LeafLitterBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "BigDripleafStemBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "LecternBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStrongRedstonePower",
           "status": "NotImplemented"
         },
         {
@@ -1189,57 +611,19 @@
         {
           "method_name": "getComparatorOutput",
           "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 9.090909
-    },
-    {
-      "class_name": "FluidBlock",
-      "methods": [
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "CalibratedSculkSensorBlock",
+      "class_name": "OxidizableLightningRodBlock",
       "methods": [
         {
-          "method_name": "createBlockEntity",
+          "method_name": "randomTick",
           "status": "NotImplemented"
         },
         {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
+          "method_name": "hasRandomTicks",
           "status": "NotImplemented"
         }
       ],
@@ -1272,41 +656,123 @@
       "percentage_implemented": 100.0
     },
     {
-      "class_name": "RespawnAnchorBlock",
+      "class_name": "TorchflowerBlock",
       "methods": [
         {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "explode",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
+          "method_name": "randomTick",
           "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "ButtonBlock",
+      "class_name": "BubbleColumnBlock",
       "methods": [
         {
-          "method_name": "onUse",
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CoralWallFanBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "EyeblossomBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "GrindstoneBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
           "status": "Implemented"
         },
         {
-          "method_name": "onExploded",
+          "method_name": "onUse",
           "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 50.0
+    },
+    {
+      "class_name": "OxidizableDoorBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TripwireHookBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
         },
         {
           "method_name": "onStateReplaced",
@@ -1323,23 +789,477 @@
         {
           "method_name": "emitsRedstonePower",
           "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 88.88889
+    },
+    {
+      "class_name": "WallTorchBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SeagrassBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "ComposterBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUseWithItem",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
         },
         {
           "method_name": "scheduledTick",
           "status": "Implemented"
         },
         {
-          "method_name": "onEntityCollision",
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 66.66667
+    },
+    {
+      "class_name": "CalibratedSculkSensorBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
           "status": "NotImplemented"
         }
       ],
-      "percentage_implemented": 75.0
+      "percentage_implemented": 0.0
     },
     {
-      "class_name": "CobwebBlock",
+      "class_name": "WallBannerBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "WitherSkullBlock",
+      "methods": [
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "FrostedIceBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CoralBlockBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "OxidizableStairsBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BeaconBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SugarCaneBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "BigDripleafStemBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "LeveledCauldronBlock",
       "methods": [
         {
           "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CreakingHeartBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onExploded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBreak",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "PropaguleBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TestInstanceBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BambooBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 16.666668
+    },
+    {
+      "class_name": "OxidizableGrateBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "VineBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 25.0
+    },
+    {
+      "class_name": "BedBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBreak",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 66.66667
+    },
+    {
+      "class_name": "LightBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "HangingRootsBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CartographyTableBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "ChorusFlowerBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onProjectileHit",
           "status": "NotImplemented"
         }
       ],
@@ -1396,304 +1316,18 @@
       "percentage_implemented": 72.72727
     },
     {
-      "class_name": "LadderBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "OxidizableTrapdoorBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BarrierBlock",
-      "methods": [
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "ScaffoldingBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "NetherPortalBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 66.66667
-    },
-    {
-      "class_name": "WallHangingSignBlock",
+      "class_name": "RespawnAnchorBlock",
       "methods": [
         {
           "method_name": "onUseWithItem",
           "status": "NotImplemented"
         },
         {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "MobSpawnerBlockEntity",
-      "methods": [
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CommandBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
           "method_name": "onUse",
           "status": "NotImplemented"
         },
         {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 25.0
-    },
-    {
-      "class_name": "EnderChestBlockEntity",
-      "methods": [
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "MangroveRootsBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "HopperBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 33.333336
-    },
-    {
-      "class_name": "EyeblossomBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "PistonBlock",
-      "methods": [
-        {
-          "method_name": "onPlaced",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 80.0
-    },
-    {
-      "class_name": "CreakingHeartBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onExploded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBreak",
+          "method_name": "explode",
           "status": "NotImplemented"
         },
         {
@@ -1708,1186 +1342,28 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "StructureBlock",
+      "class_name": "FurnaceBlock",
       "methods": [
         {
           "method_name": "createBlockEntity",
           "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "DecoratedPotBlock",
+      "class_name": "MagmaBlock",
       "methods": [
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBreak",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onProjectileHit",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TestInstanceBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "OxidizableGrateBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CocoaBlock",
-      "methods": [
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "GlazedTerracottaBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "CactusBlock",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "DetectorRailBlock",
-      "methods": [
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        },
         {
           "method_name": "scheduledTick",
           "status": "NotImplemented"
         },
         {
-          "method_name": "getWeakRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStrongRedstonePower",
+          "method_name": "getStateForNeighborUpdate",
           "status": "NotImplemented"
         },
         {
           "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "DriedGhastBlock",
-      "methods": [
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "EndPortalFrameBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 33.333336
-    },
-    {
-      "class_name": "DaylightDetectorBlock",
-      "methods": [
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "LavaCauldronBlock",
-      "methods": [
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "LecternBlockEntity",
-      "methods": [
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SugarCaneBlock",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "ChorusPlantBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "DropperBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SmokerBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "WallRedstoneTorchBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "MushroomBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TripwireHookBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStrongRedstonePower",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 88.88889
-    },
-    {
-      "class_name": "CaveVinesHeadBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BeetrootsBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CandleBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 75.0
-    },
-    {
-      "class_name": "BubbleColumnBlock",
-      "methods": [
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "ConduitBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "DirtPathBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "PitcherCropBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TrialSpawnerBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "FenceGateBlock",
-      "methods": [
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onExploded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 60.000004
-    },
-    {
-      "class_name": "RotatedInfestedBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TargetBlock",
-      "methods": [
-        {
-          "method_name": "onProjectileHit",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 20.0
-    },
-    {
-      "class_name": "HeavyCoreBlock",
-      "methods": [
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "OxidizableLightningRodBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "FenceBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 66.66667
-    },
-    {
-      "class_name": "SeagrassBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BedBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onBreak",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 66.66667
-    },
-    {
-      "class_name": "DragonEggBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "RepeaterBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "FrostedIceBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "StonecutterBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BeaconBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "VaultBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "FlowerPotBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 40.0
-    },
-    {
-      "class_name": "CoralBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "BrushableBlockEntity",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "ShulkerBoxBlockEntity",
-      "methods": [
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SignBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 33.333336
-    },
-    {
-      "class_name": "BambooBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 16.666668
-    },
-    {
-      "class_name": "PumpkinBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "StemBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "BrushableBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "RedstoneBlock",
-      "methods": [
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 100.0
-    },
-    {
-      "class_name": "SmithingTableBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "ChorusFlowerBlock",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onProjectileHit",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "GrindstoneBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 50.0
-    },
-    {
-      "class_name": "CoralWallFanBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CaveVinesBodyBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SweetBerryBushBlock",
-      "methods": [
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CartographyTableBlock",
-      "methods": [
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TestBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "WitherRoseBlock",
-      "methods": [
-        {
-          "method_name": "onEntityCollision",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CoralFanBlock",
-      "methods": [
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "PropaguleBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
           "status": "NotImplemented"
         }
       ],
@@ -2908,50 +1384,8 @@
       "percentage_implemented": 50.0
     },
     {
-      "class_name": "TripwireBlock",
+      "class_name": "ConduitBlock",
       "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onBlockAdded",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onBreak",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onEntityCollision",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 85.71429
-    },
-    {
-      "class_name": "EnderChestBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        },
         {
           "method_name": "createBlockEntity",
           "status": "NotImplemented"
@@ -2961,151 +1395,7 @@
           "status": "NotImplemented"
         },
         {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 20.0
-    },
-    {
-      "class_name": "TrappedChestBlock",
-      "methods": [
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "emitsRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getWeakRedstonePower",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStrongRedstonePower",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "OxidizableDoorBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "RedstoneLampBlock",
-      "methods": [
-        {
           "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "PaleMossCarpetBlock",
-      "methods": [
-        {
-          "method_name": "canPlaceAt",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        }
-      ],
-      "percentage_implemented": 50.0
-    },
-    {
-      "class_name": "CrafterBlock",
-      "methods": [
-        {
-          "method_name": "hasComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "neighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onPlaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onStateReplaced",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "HangingSignBlock",
-      "methods": [
-        {
-          "method_name": "onUseWithItem",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
           "status": "NotImplemented"
         }
       ],
@@ -3154,43 +1444,225 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "ComparatorBlock",
+      "class_name": "RotatedInfestedBlock",
       "methods": [
         {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onUse",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "scheduledTick",
-          "status": "Implemented"
-        },
-        {
-          "method_name": "onSyncedBlockEvent",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
+          "method_name": "getPlacementState",
           "status": "NotImplemented"
         }
       ],
-      "percentage_implemented": 60.000004
+      "percentage_implemented": 0.0
     },
     {
-      "class_name": "AttachedStemBlock",
+      "class_name": "FluidBlock",
       "methods": [
         {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
           "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "PumpkinBlock",
+      "methods": [
+        {
+          "method_name": "onUseWithItem",
           "status": "Implemented"
         }
       ],
       "percentage_implemented": 100.0
     },
     {
-      "class_name": "BannerBlock",
+      "class_name": "KelpBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SmokerBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "NetherWartBlock",
+      "methods": [
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "LeafLitterBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "CaveVinesBodyBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "OxidizableCopperGolemStatueBlock",
+      "methods": [
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "PaleMossCarpetBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 50.0
+    },
+    {
+      "class_name": "BeehiveBlock",
+      "methods": [
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onExploded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBreak",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TrialSpawnerBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "PistonBlock",
+      "methods": [
+        {
+          "method_name": "onPlaced",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onSyncedBlockEvent",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 80.0
+    },
+    {
+      "class_name": "SignBlock",
       "methods": [
         {
           "method_name": "canPlaceAt",
@@ -3238,57 +1710,7 @@
       "percentage_implemented": 100.0
     },
     {
-      "class_name": "HangingRootsBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SculkShriekerBlock",
-      "methods": [
-        {
-          "method_name": "scheduledTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "createBlockEntity",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CreakingHeartBlockEntity",
-      "methods": [
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "PistonExtensionBlock",
+      "class_name": "BrewingStandBlock",
       "methods": [
         {
           "method_name": "createBlockEntity",
@@ -3297,12 +1719,34 @@
         {
           "method_name": "onUse",
           "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "BuddingAmethystBlock",
+      "class_name": "PowderSnowBlock",
+      "methods": [
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BeetrootsBlock",
       "methods": [
         {
           "method_name": "randomTick",
@@ -3312,46 +1756,198 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "WallTorchBlock",
+      "class_name": "CandleBlock",
       "methods": [
         {
-          "method_name": "canPlaceAt",
-          "status": "NotImplemented"
+          "method_name": "onUseWithItem",
+          "status": "Implemented"
         },
         {
           "method_name": "getPlacementState",
-          "status": "NotImplemented"
+          "status": "Implemented"
         },
         {
           "method_name": "getStateForNeighborUpdate",
           "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "CrafterBlockEntity",
-      "methods": [
-        {
-          "method_name": "getComparatorOutput",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "TallSeagrassBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
         },
         {
           "method_name": "canPlaceAt",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 75.0
+    },
+    {
+      "class_name": "FlowerbedBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "OxidizableTrapdoorBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
           "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "EndGatewayBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "ObserverBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "emitsRedstonePower",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStrongRedstonePower",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 87.5
+    },
+    {
+      "class_name": "AnvilBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 50.0
+    },
+    {
+      "class_name": "NyliumBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "ButtonBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onExploded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStrongRedstonePower",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "emitsRedstonePower",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 75.0
+    },
+    {
+      "class_name": "ChiseledBookshelfBlock",
+      "methods": [
+        {
+          "method_name": "onUseWithItem",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 57.14286
     },
     {
       "class_name": "PointedDripstoneBlock",
@@ -3384,64 +1980,48 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "SoulFireBlock",
+      "class_name": "RedstoneBlock",
       "methods": [
         {
-          "method_name": "getStateForNeighborUpdate",
+          "method_name": "emitsRedstonePower",
           "status": "Implemented"
         },
         {
-          "method_name": "canPlaceAt",
+          "method_name": "getWeakRedstonePower",
           "status": "Implemented"
         }
       ],
       "percentage_implemented": 100.0
     },
     {
-      "class_name": "SporeBlossomBlock",
+      "class_name": "CoralFanBlock",
       "methods": [
         {
-          "method_name": "canPlaceAt",
+          "method_name": "onBlockAdded",
           "status": "NotImplemented"
         },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "ConcretePowderBlock",
-      "methods": [
-        {
-          "method_name": "getPlacementState",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "SnifferEggBlock",
-      "methods": [
         {
           "method_name": "scheduledTick",
           "status": "NotImplemented"
         },
         {
-          "method_name": "onBlockAdded",
+          "method_name": "getStateForNeighborUpdate",
           "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "EndRodBlock",
+      "class_name": "LadderBlock",
       "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
         {
           "method_name": "getPlacementState",
           "status": "Implemented"
@@ -3450,8 +2030,20 @@
       "percentage_implemented": 100.0
     },
     {
-      "class_name": "KelpBlock",
+      "class_name": "SnowBlock",
       "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
         {
           "method_name": "getPlacementState",
           "status": "NotImplemented"
@@ -3460,35 +2052,29 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "BambooShootBlock",
+      "class_name": "BrushableBlock",
       "methods": [
         {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "canPlaceAt",
+          "method_name": "onBlockAdded",
           "status": "NotImplemented"
         },
         {
           "method_name": "getStateForNeighborUpdate",
           "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "NyliumBlock",
-      "methods": [
+        },
         {
-          "method_name": "randomTick",
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
           "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "LeveledCauldronBlock",
+      "class_name": "LavaCauldronBlock",
       "methods": [
         {
           "method_name": "onEntityCollision",
@@ -3502,28 +2088,18 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "OxidizableChainBlock",
+      "class_name": "VaultBlock",
       "methods": [
         {
-          "method_name": "randomTick",
+          "method_name": "onUseWithItem",
           "status": "NotImplemented"
         },
         {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        }
-      ],
-      "percentage_implemented": 0.0
-    },
-    {
-      "class_name": "OxidizableBlock",
-      "methods": [
-        {
-          "method_name": "randomTick",
+          "method_name": "createBlockEntity",
           "status": "NotImplemented"
         },
         {
-          "method_name": "hasRandomTicks",
+          "method_name": "getPlacementState",
           "status": "NotImplemented"
         }
       ],
@@ -3548,14 +2124,314 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "VineBlock",
+      "class_name": "PistonHeadBlock",
       "methods": [
+        {
+          "method_name": "onBreak",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 20.0
+    },
+    {
+      "class_name": "OxidizableCopperChestBlock",
+      "methods": [
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "FireBlock",
+      "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
         {
           "method_name": "canPlaceAt",
           "status": "Implemented"
         },
         {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 60.000004
+    },
+    {
+      "class_name": "BuddingAmethystBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "StructureBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "FenceBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
           "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 66.66667
+    },
+    {
+      "class_name": "CactusBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "randomTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "MushroomPlantBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 50.0
+    },
+    {
+      "class_name": "RepeaterBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "HangingSignBlock",
+      "methods": [
+        {
+          "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "ScaffoldingBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "OxidizableBulbBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "PistonExtensionBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "LecternBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "emitsRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStrongRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 9.090909
+    },
+    {
+      "class_name": "SweetBerryBushBlock",
+      "methods": [
+        {
+          "method_name": "hasRandomTicks",
           "status": "NotImplemented"
         },
         {
@@ -3563,17 +2439,467 @@
           "status": "NotImplemented"
         },
         {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "OxidizableChainBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TurtleEggBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
           "method_name": "getPlacementState",
           "status": "NotImplemented"
         }
       ],
-      "percentage_implemented": 25.0
+      "percentage_implemented": 0.0
     },
     {
-      "class_name": "WitherSkullBlock",
+      "class_name": "WallHangingSignBlock",
       "methods": [
         {
-          "method_name": "onPlaced",
+          "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BarrelBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 28.57143
+    },
+    {
+      "class_name": "ComparatorBlock",
+      "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onSyncedBlockEvent",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 60.000004
+    },
+    {
+      "class_name": "DropperBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "OxidizableLanternBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BellBlock",
+      "methods": [
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onProjectileHit",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onExploded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "FrogspawnBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BambooShootBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "LoomBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SculkShriekerBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "WetSpongeBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "AttachedStemBlock",
+      "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "TripwireBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onBreak",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 85.71429
+    },
+    {
+      "class_name": "ShulkerBoxBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onBreak",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onStateReplaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 28.57143
+    },
+    {
+      "class_name": "HeavyCoreBlock",
+      "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "OxidizableSlabBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasRandomTicks",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "DirtPathBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "EndPortalFrameBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 33.333336
+    },
+    {
+      "class_name": "JigsawBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TrappedChestBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "emitsRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStrongRedstonePower",
           "status": "NotImplemented"
         }
       ],
@@ -3598,10 +2924,168 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "LoomBlock",
+      "class_name": "CakeBlock",
       "methods": [
         {
+          "method_name": "onUseWithItem",
+          "status": "Implemented"
+        },
+        {
           "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 33.333336
+    },
+    {
+      "class_name": "DetectorRailBlock",
+      "methods": [
+        {
+          "method_name": "emitsRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStrongRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TallSeagrassBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "StonecutterBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "NetherPortalBlock",
+      "methods": [
+        {
+          "method_name": "randomTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 66.66667
+    },
+    {
+      "class_name": "WallBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "LilyPadBlock",
+      "methods": [
+        {
+          "method_name": "onEntityCollision",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "BigDripleafBlock",
+      "methods": [
+        {
+          "method_name": "onProjectileHit",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
           "status": "NotImplemented"
         },
         {
@@ -3612,32 +3096,410 @@
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "OxidizableCopperGolemStatueBlock",
+      "class_name": "CampfireBlock",
       "methods": [
         {
-          "method_name": "hasRandomTicks",
-          "status": "NotImplemented"
-        },
-        {
-          "method_name": "randomTick",
-          "status": "NotImplemented"
-        },
-        {
           "method_name": "onUseWithItem",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onEntityCollision",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onProjectileHit",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 50.0
+    },
+    {
+      "class_name": "CommandBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "hasComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getComparatorOutput",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onPlaced",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 25.0
+    },
+    {
+      "class_name": "EnchantingTableBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
           "status": "NotImplemented"
         }
       ],
       "percentage_implemented": 0.0
     },
     {
-      "class_name": "OxidizableSlabBlock",
+      "class_name": "SeaPickleBlock",
       "methods": [
         {
-          "method_name": "randomTick",
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "GlazedTerracottaBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "SpongeBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
           "status": "NotImplemented"
         },
         {
-          "method_name": "hasRandomTicks",
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "WallRedstoneTorchBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CaveVinesHeadBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "WitherRoseBlock",
+      "methods": [
+        {
+          "method_name": "onEntityCollision",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CoralBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SpawnerBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "EndRodBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 100.0
+    },
+    {
+      "class_name": "FenceGateBlock",
+      "methods": [
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onExploded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 60.000004
+    },
+    {
+      "class_name": "ConcretePowderBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "EnderChestBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 20.0
+    },
+    {
+      "class_name": "DragonEggBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "BlastFurnaceBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SoulSandBlock",
+      "methods": [
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "TestBlock",
+      "methods": [
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "neighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "HangingMossBlock",
+      "methods": [
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "DaylightDetectorBlock",
+      "methods": [
+        {
+          "method_name": "getWeakRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "onUse",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "emitsRedstonePower",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "createBlockEntity",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "ChorusPlantBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "scheduledTick",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "canPlaceAt",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "SmithingTableBlock",
+      "methods": [
+        {
+          "method_name": "onUse",
           "status": "NotImplemented"
         }
       ],
@@ -3652,7 +3514,35 @@
         }
       ],
       "percentage_implemented": 0.0
+    },
+    {
+      "class_name": "CarvedPumpkinBlock",
+      "methods": [
+        {
+          "method_name": "onBlockAdded",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getPlacementState",
+          "status": "Implemented"
+        }
+      ],
+      "percentage_implemented": 50.0
+    },
+    {
+      "class_name": "MangroveRootsBlock",
+      "methods": [
+        {
+          "method_name": "getPlacementState",
+          "status": "NotImplemented"
+        },
+        {
+          "method_name": "getStateForNeighborUpdate",
+          "status": "NotImplemented"
+        }
+      ],
+      "percentage_implemented": 0.0
     }
   ],
-  "percentage_implemented": 24.447948
+  "percentage_implemented": 24.879616
 }
