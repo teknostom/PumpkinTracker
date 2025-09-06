@@ -1,16 +1,21 @@
 [
   {
-    "class_name": "BowItem",
+    "class_name": "EntriesImpl",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "ItemGroups",
+    "class_name": "MapDecorationTypes",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "ItemFrameItem",
+    "class_name": "ItemKeys",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlaceableOnWaterItem",
     "methods": [],
     "is_real_class": true
   },
@@ -20,102 +25,12 @@
     "is_real_class": true
   },
   {
-    "class_name": "MapState",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FireworkRocketItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "KnowledgeBookItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LeadItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RangedWeaponItem",
+    "class_name": "ThrowablePotionItem",
     "methods": [],
     "is_real_class": false
   },
   {
-    "class_name": "BannerItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArrowItem",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "EggItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DiscFragmentItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShieldItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemUsage",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntriesImpl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntityBucketItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MinecartItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GlassBottleItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TippedArrowItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AirBlockItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DyeItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CrossbowItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "InkSacItem",
+    "class_name": "PowderSnowBucketItem",
     "methods": [],
     "is_real_class": true
   },
@@ -130,77 +45,17 @@
     "is_real_class": true
   },
   {
-    "class_name": "EnderEyeItem",
+    "class_name": "LingeringPotionItem",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "ItemStack",
+    "class_name": "ShearsItem",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "Item",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "FilledMapItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SnowballItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Builder",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ScaffoldingItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ThrowablePotionItem",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "FlintAndSteelItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WritableBookItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SplashPotionItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FuelRegistry",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShovelItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayerUpdateTracker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "OnAStickItem",
+    "class_name": "BoatItem",
     "methods": [],
     "is_real_class": true
   },
@@ -210,12 +65,132 @@
     "is_real_class": true
   },
   {
-    "class_name": "TridentItem",
+    "class_name": "ShovelItem",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "HoeItem",
+    "class_name": "ItemUsage",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemGroup",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "InkSacItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemGroups",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BannerItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EntityBucketItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OnAStickItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DiscFragmentItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SnowballItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OperatorOnlyBlockItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayerUpdateTracker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AutomaticItemPlacementContext",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Builder",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemFrameItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NameTagItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TallBlockItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RangedWeaponItem",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "MapState",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SmithingTemplateItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AxeItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FuelRegistry",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HangingSignItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "KnowledgeBookItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DecorationItem",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WritableBookItem",
     "methods": [],
     "is_real_class": true
   },
@@ -225,19 +200,64 @@
     "is_real_class": false
   },
   {
-    "class_name": "AxeItem",
+    "class_name": "TridentItem",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "BucketItem",
+    "class_name": "ArmorStandItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderEyeItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PotionItem",
     "methods": [],
     "is_real_class": false
   },
   {
-    "class_name": "ItemPlacementContext",
+    "class_name": "DyeItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VerticallyAttachableBlockItem",
     "methods": [],
     "is_real_class": false
+  },
+  {
+    "class_name": "PlayerHeadItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ExperienceBottleItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpectralArrowItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GlassBottleItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GlowInkSacItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BowItem",
+    "methods": [],
+    "is_real_class": true
   },
   {
     "class_name": "BundleItem",
@@ -250,147 +270,7 @@
     "is_real_class": true
   },
   {
-    "class_name": "BrushItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FireChargeItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoneycombItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ExperienceBottleItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DebugStickItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemKeys",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemGroup",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpectralArrowItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FishingRodItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemStackSet",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SmithingTemplateItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SignItem",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "Settings",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BoatItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PotionItem",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "GlowInkSacItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlaceableOnWaterItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LingeringPotionItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArmorTrimPatterns",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "OperatorOnlyBlockItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MapDecorationTypes",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EmptyMapItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HangingSignItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Items",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DecorationItem",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "GoatHornItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EnderPearlItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BedItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArmorStandItem",
+    "class_name": "FlintAndSteelItem",
     "methods": [],
     "is_real_class": true
   },
@@ -400,37 +280,12 @@
     "is_real_class": true
   },
   {
-    "class_name": "BlockItem",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "NameTagItem",
+    "class_name": "DebugStickItem",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "ShearsItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayerHeadItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PowderSnowBucketItem",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AutomaticItemPlacementContext",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TallBlockItem",
+    "class_name": "MinecartItem",
     "methods": [],
     "is_real_class": true
   },
@@ -440,9 +295,139 @@
     "is_real_class": true
   },
   {
-    "class_name": "VerticallyAttachableBlockItem",
+    "class_name": "SplashPotionItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShieldItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HoneycombItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Item",
     "methods": [],
     "is_real_class": false
+  },
+  {
+    "class_name": "EmptyMapItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireChargeItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockItem",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ScaffoldingItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ArrowItem",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "LeadItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BedItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemStack",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WindChargeItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SignItem",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "Items",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ArmorTrimPatterns",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EggItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FilledMapItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BucketItem",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TippedArrowItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoatHornItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Settings",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FishingRodItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireworkRocketItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemPlacementContext",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CrossbowItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AirBlockItem",
+    "methods": [],
+    "is_real_class": true
   },
   {
     "class_name": "CompassItem",
@@ -450,7 +435,22 @@
     "is_real_class": true
   },
   {
-    "class_name": "WindChargeItem",
+    "class_name": "BrushItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HoeItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderPearlItem",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemStackSet",
     "methods": [],
     "is_real_class": true
   }

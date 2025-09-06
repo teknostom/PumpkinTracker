@@ -17,6 +17,7 @@ pub fn analyze_implementation<T: MinecraftComponent>(
     let real_java_classes: Vec<_> = java_classes
         .iter()
         .filter(|c| c.is_real_class)
+        .filter(|c| c.methods.len() > 0)
         .filter(|c| c.class_name != "AbstractBlockState")
         .collect();
 
