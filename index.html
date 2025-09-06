@@ -192,7 +192,9 @@
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                classData = await response.json();
+                jsonData = await response.json();
+                classData = jsonData.classes;
+                const overallStats = jsonData.percentage_implemented;
                 filteredData = [...classData];
                 
                 document.getElementById('loading').style.display = 'none';
