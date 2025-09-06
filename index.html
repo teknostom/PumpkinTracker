@@ -88,14 +88,25 @@
             overflow: hidden;
             margin-bottom: 10px;
             border: 1px solid var(--border-color);
+            position: relative;
         }
         
-        .main-progress-fill {
+        .main-progress-segments {
             height: 100%;
-            background: linear-gradient(90deg, var(--accent-red), var(--accent-orange), var(--accent-yellow), var(--accent-green));
-            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-            border-radius: 6px;
+            display: flex;
+            width: 100%;
         }
+        
+        .progress-segment {
+            height: 100%;
+            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .segment-fully { background: var(--accent-green); }
+        .segment-mostly { background: var(--accent-yellow); }
+        .segment-partially { background: var(--accent-orange); }
+        .segment-barely { background: var(--accent-red); }
+        .segment-not { background: var(--text-muted); }
         
         .progress-text {
             display: flex;
@@ -363,7 +374,13 @@
         <div id="overallProgress" class="overall-progress" style="display: none;">
             <h2>Overall Implementation Progress</h2>
             <div class="main-progress-bar">
-                <div id="mainProgressFill" class="main-progress-fill" style="width: 0%"></div>
+                <div class="main-progress-segments">
+                    <div id="segmentFully" class="progress-segment segment-fully" style="width: 0%"></div>
+                    <div id="segmentMostly" class="progress-segment segment-mostly" style="width: 0%"></div>
+                    <div id="segmentPartially" class="progress-segment segment-partially" style="width: 0%"></div>
+                    <div id="segmentBarely" class="progress-segment segment-barely" style="width: 0%"></div>
+                    <div id="segmentNot" class="progress-segment segment-not" style="width: 0%"></div>
+                </div>
             </div>
             <div class="progress-text">
                 <span id="progressDetails">0 of 0 methods implemented</span>
@@ -407,36 +424,59 @@
         let filteredData = [];
         let jsonData = {};
         
+        // Mock data for demonstration since we don't have the JSON file
+        const mockData = {
+            classes: [
+                {
+                    class_name: "BlockBase",
+                    methods: [
+                        { method_name: "getStateForPlacement", status: "Implemented" },
+                        { method_name: "onPlace", status: "Not Implemented" },
+                        { method_name: "onBreak", status: "Implemented" },
+                        { method_name: "getDrops", status: "Not Implemented" }
+                    ]
+                },
+                {
+                    class_name: "FluidBlock",
+                    methods: [
+                        { method_name: "canFlowInto", status: "Implemented" },
+                        { method_name: "getFlowDirection", status: "Implemented" },
+                        { method_name: "spread", status: "Implemented" }
+                    ]
+                },
+                {
+                    class_name: "CropBlock",
+                    methods: [
+                        { method_name: "canGrow", status: "Not Implemented" },
+                        { method_name: "grow", status: "Not Implemented" },
+                        { method_name: "getGrowthStage", status: "Not Implemented" },
+                        { method_name: "isFullyGrown", status: "Not Implemented" }
+                    ]
+                }
+            ]
+        };
+        
         async function loadData() {
             try {
-                // Try multiple possible paths for the JSON file
-                const possiblePaths = [
-                    './pumpkin_blocks_analysis.json',
-                    './outputs/pumpkin_blocks_analysis.json',
-                    './data/pumpkin_blocks_analysis.json'
-                ];
+                // Try to load real data first
+                const path = 
+                    './outputs/pumpkin_blocks_analysis.json'
                 
                 let response;
                 let loadedPath = '';
                 
-                for (const path of possiblePaths) {
-                    try {
-                        response = await fetch(path);
-                        if (response.ok) {
-                            loadedPath = path;
-                            break;
-                        }
-                    } catch (e) {
-                        // Continue to next path
-                    }
-                }
-                
-                if (!response || !response.ok) {
-                    throw new Error('Could not find pumpkin_blocks_analysis.json file');
+                response = await fetch(path);
+                if (response.ok) {
+                    loadedPath = path;
                 }
                 
                 jsonData = await response.json();
-                classData = jsonData.classes || [];
+                
+                console.log('Loaded JSON data:', jsonData);
+                
+                // Handle different possible data structures
+                classData = jsonData.classes;
+                
                 filteredData = [...classData];
                 
                 document.getElementById('loading').style.display = 'none';
@@ -455,7 +495,7 @@
                 errorDiv.style.display = 'block';
                 errorDiv.innerHTML = `
                     <strong>Error loading data:</strong> ${error.message}<br>
-                    <small>Make sure pumpkin_blocks_analysis.json is accessible in one of these locations: ./pumpkin_blocks_analysis.json, ./outputs/, or ./data/</small>
+                    Please ensure the JSON file is accessible and correctly formatted.
                 `;
             }
         }
@@ -503,7 +543,7 @@
             const barelyPerc = (stats.barelyImplemented / totalClasses) * 100;
             const notPerc = (stats.notImplemented / totalClasses) * 100;
             
-            // Update segment widths with null checks
+            // Update segment widths
             const segmentFully = document.getElementById('segmentFully');
             const segmentMostly = document.getElementById('segmentMostly');
             const segmentPartially = document.getElementById('segmentPartially');
@@ -531,7 +571,7 @@
                 segmentNot.title = `Not Implemented: ${stats.notImplemented} classes (${notPerc.toFixed(1)}%)`;
             }
             
-            // Update text details with null checks
+            // Update text details
             const overallMethodPercentage = stats.totalMethods === 0 ? 0 : 
                 (stats.implementedMethods / stats.totalMethods) * 100;
             
