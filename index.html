@@ -492,13 +492,38 @@
         
         function renderOverallProgress() {
             const stats = calculateStats();
-            const overallPercentage = stats.totalMethods === 0 ? 0 : 
+            const totalClasses = stats.totalClasses;
+            
+            if (totalClasses === 0) return;
+            
+            // Calculate percentages for each segment
+            const fullyPerc = (stats.fullyImplemented / totalClasses) * 100;
+            const mostlyPerc = (stats.mostlyImplemented / totalClasses) * 100;
+            const partiallyPerc = (stats.partiallyImplemented / totalClasses) * 100;
+            const barelyPerc = (stats.barelyImplemented / totalClasses) * 100;
+            const notPerc = (stats.notImplemented / totalClasses) * 100;
+            
+            // Update segment widths
+            document.getElementById('segmentFully').style.width = `${fullyPerc}%`;
+            document.getElementById('segmentMostly').style.width = `${mostlyPerc}%`;
+            document.getElementById('segmentPartially').style.width = `${partiallyPerc}%`;
+            document.getElementById('segmentBarely').style.width = `${barelyPerc}%`;
+            document.getElementById('segmentNot').style.width = `${notPerc}%`;
+            
+            // Update tooltips with counts
+            document.getElementById('segmentFully').title = `Fully Implemented: ${stats.fullyImplemented} classes (${fullyPerc.toFixed(1)}%)`;
+            document.getElementById('segmentMostly').title = `Mostly Implemented: ${stats.mostlyImplemented} classes (${mostlyPerc.toFixed(1)}%)`;
+            document.getElementById('segmentPartially').title = `Partially Implemented: ${stats.partiallyImplemented} classes (${partiallyPerc.toFixed(1)}%)`;
+            document.getElementById('segmentBarely').title = `Barely Implemented: ${stats.barelyImplemented} classes (${barelyPerc.toFixed(1)}%)`;
+            document.getElementById('segmentNot').title = `Not Implemented: ${stats.notImplemented} classes (${notPerc.toFixed(1)}%)`;
+            
+            // Update text details
+            const overallMethodPercentage = stats.totalMethods === 0 ? 0 : 
                 (stats.implementedMethods / stats.totalMethods) * 100;
             
-            document.getElementById('mainProgressFill').style.width = `${overallPercentage}%`;
             document.getElementById('progressDetails').textContent = 
                 `${stats.implementedMethods} of ${stats.totalMethods} methods implemented`;
-            document.getElementById('progressPercentage').textContent = `${overallPercentage.toFixed(1)}%`;
+            document.getElementById('progressPercentage').textContent = `${overallMethodPercentage.toFixed(1)}%`;
         }
         
         function renderStats() {
