@@ -1,29 +1,125 @@
 [
   {
-    "class_name": "SoulFireBlock",
+    "class_name": "PumpkinBlock",
     "methods": [
+      "use_with_item"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LogBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LecternBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SeaGrassBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "IronBarsBlock",
+    "methods": [
+      "on_place",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PotatoBlock",
+    "methods": [
+      "can_place_at",
       "get_state_for_neighbor_update",
-      "can_place_at",
-      "broken"
-    ]
+      "random_tick"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "DoorBlock",
+    "class_name": "TorchFlowerBlock",
     "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SaplingBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SeaPickleBlock",
+    "methods": [
+      "use_with_item",
       "on_place",
       "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BushBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DetectorRailBlock",
+    "methods": [
+      "on_place",
       "placed",
-      "normal_use",
       "on_neighbor_update",
-      "get_state_for_neighbor_update"
-    ]
+      "can_place_at"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "WallBlock",
+    "class_name": "TripwireHookBlock",
     "methods": [
       "on_place",
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick",
+      "on_state_replaced",
+      "emits_redstone_power",
+      "get_weak_redstone_power",
+      "get_strong_redstone_power",
+      "can_place_at"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ButtonBlock",
+    "methods": [
+      "normal_use",
+      "on_scheduled_tick",
+      "emits_redstone_power",
+      "get_weak_redstone_power",
+      "get_strong_redstone_power",
+      "on_state_replaced",
+      "on_place",
+      "can_place_at",
       "get_state_for_neighbor_update"
-    ]
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "PoweredRailBlock",
@@ -35,16 +131,19 @@
       "can_place_at",
       "emits_redstone_power",
       "get_weak_redstone_power"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "PistonBlock",
+    "class_name": "SignBlock",
     "methods": [
       "on_place",
       "placed",
-      "on_neighbor_update",
-      "on_synced_block_event"
-    ]
+      "on_state_replaced",
+      "normal_use",
+      "use_with_item"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "LadderBlock",
@@ -53,68 +152,15 @@
       "can_place_at",
       "get_state_for_neighbor_update",
       "on_scheduled_tick"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "SeaGrassBlock",
+    "class_name": "BlastFurnaceBlock",
     "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "DropperBlock",
-    "methods": [
-      "normal_use",
-      "on_place",
-      "placed",
-      "on_neighbor_update",
-      "on_scheduled_tick"
-    ]
-  },
-  {
-    "class_name": "PotatoBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "random_tick"
-    ]
-  },
-  {
-    "class_name": "SaplingBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "random_tick"
-    ]
-  },
-  {
-    "class_name": "VineBlock",
-    "methods": [
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "TallPlantBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "FlowerbedBlock",
-    "methods": [
-      "can_place_at",
-      "on_place",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "FireBlockBase",
-    "methods": [
-      "can_place_at",
-      "broken"
-    ]
+      "on_place"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "RedstoneWireBlock",
@@ -129,47 +175,415 @@
       "get_strong_redstone_power",
       "placed",
       "broken"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "ChiseledBookshelfBlock",
+    "class_name": "GlazedTerracottaBlock",
     "methods": [
-      "on_place",
-      "normal_use",
-      "use_with_item",
-      "placed",
-      "get_comparator_output"
-    ]
+      "on_place"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "FarmlandBlock",
+    "class_name": "DispenserBlock",
     "methods": [
-      "on_scheduled_tick",
-      "on_place",
-      "get_state_for_neighbor_update",
-      "can_place_at",
-      "random_tick"
-    ]
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SlabBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "FenceBlock",
     "methods": [
       "on_place",
       "get_state_for_neighbor_update"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "LecternBlock",
+    "class_name": "CommandBlock",
     "methods": [
-      "on_place"
-    ]
+      "on_neighbor_update",
+      "on_scheduled_tick",
+      "can_place_at"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "SkullBlock",
     "methods": [
       "on_place",
       "on_neighbor_update"
-    ]
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeetrootBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderChestBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TNTBlock",
+    "methods": [
+      "use_with_item",
+      "placed",
+      "on_neighbor_update",
+      "explode"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneBlock",
+    "methods": [
+      "get_weak_redstone_power",
+      "emits_redstone_power"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShortPlantBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NoteBlock",
+    "methods": [
+      "on_neighbor_update",
+      "normal_use",
+      "use_with_item",
+      "on_synced_block_event",
+      "on_place",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FallingBlock",
+    "methods": [
+      "placed",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LanternBlock",
+    "methods": [
+      "on_place",
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CarpetBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ComposterBlock",
+    "methods": [
+      "normal_use",
+      "use_with_item",
+      "on_scheduled_tick",
+      "get_comparator_output"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CandleCakeBlock",
+    "methods": [
+      "use_with_item",
+      "normal_use"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireBlockBase",
+    "methods": [
+      "can_place_at",
+      "broken"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RepeaterBlock",
+    "methods": [
+      "on_place",
+      "on_neighbor_update",
+      "on_scheduled_tick",
+      "normal_use",
+      "get_weak_redstone_power",
+      "get_strong_redstone_power",
+      "emits_redstone_power",
+      "can_place_at",
+      "placed",
+      "get_state_for_neighbor_update",
+      "on_state_replaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TripwireBlock",
+    "methods": [
+      "on_entity_collision",
+      "on_place",
+      "placed",
+      "broken",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick",
+      "on_state_replaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VineBlock",
+    "methods": [
+      "can_place_at"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TargetBlock",
+    "methods": [
+      "emits_redstone_power"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BarrelBlock",
+    "methods": [
+      "normal_use",
+      "on_place",
+      "placed"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SoulFireBlock",
+    "methods": [
+      "get_state_for_neighbor_update",
+      "can_place_at",
+      "broken"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndRodBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DoorBlock",
+    "methods": [
+      "on_place",
+      "can_place_at",
+      "placed",
+      "normal_use",
+      "on_neighbor_update",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneTorchBlock",
+    "methods": [
+      "on_place",
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "on_neighbor_update",
+      "emits_redstone_power",
+      "get_weak_redstone_power",
+      "get_strong_redstone_power",
+      "on_scheduled_tick",
+      "placed",
+      "on_state_replaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CopperBulbBlock",
+    "methods": [
+      "on_place",
+      "on_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneLamp",
+    "methods": [
+      "on_place",
+      "on_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FlowerPotBlock",
+    "methods": [
+      "use_with_item",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StemBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeafLitterBlock",
+    "methods": [
+      "can_place_at",
+      "on_place",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndPortalBlock",
+    "methods": [
+      "on_entity_collision",
+      "placed"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallBlock",
+    "methods": [
+      "on_place",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HopperBlock",
+    "methods": [
+      "normal_use",
+      "on_place",
+      "placed",
+      "on_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TorchBlock",
+    "methods": [
+      "on_place",
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PistonHeadBlock",
+    "methods": [
+      "broken"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NetherPortalBlock",
+    "methods": [
+      "get_state_for_neighbor_update",
+      "on_entity_collision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ObserverBlock",
+    "methods": [
+      "on_place",
+      "on_neighbor_update",
+      "on_scheduled_tick",
+      "get_state_for_neighbor_update",
+      "emits_redstone_power",
+      "get_weak_redstone_power",
+      "get_strong_redstone_power",
+      "on_state_replaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WheatBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RootsBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "can_place_at"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CandleBlock",
+    "methods": [
+      "on_place",
+      "use_with_item",
+      "normal_use",
+      "can_place_at"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeverBlock",
+    "methods": [
+      "normal_use",
+      "emits_redstone_power",
+      "get_weak_redstone_power",
+      "get_strong_redstone_power",
+      "on_state_replaced",
+      "on_place",
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CraftingTableBlock",
+    "methods": [
+      "normal_use"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "FurnaceBlock",
@@ -193,79 +607,8 @@
       "get_weak_redstone_power",
       "get_strong_redstone_power",
       "get_comparator_output"
-    ]
-  },
-  {
-    "class_name": "IronBarsBlock",
-    "methods": [
-      "on_place",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "DetectorRailBlock",
-    "methods": [
-      "on_place",
-      "placed",
-      "on_neighbor_update",
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "PistonHeadBlock",
-    "methods": [
-      "broken"
-    ]
-  },
-  {
-    "class_name": "MossCarpetBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick"
-    ]
-  },
-  {
-    "class_name": "WeightedPressurePlateBlock",
-    "methods": [
-      "on_entity_collision",
-      "on_scheduled_tick",
-      "on_state_replaced",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "emits_redstone_power",
-      "on_neighbor_update",
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "JukeboxBlock",
-    "methods": [
-      "use_with_item",
-      "broken"
-    ]
-  },
-  {
-    "class_name": "PressurePlateBlock",
-    "methods": [
-      "on_entity_collision",
-      "on_scheduled_tick",
-      "on_state_replaced",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "emits_redstone_power",
-      "on_neighbor_update",
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "DirtPathBlock",
-    "methods": [
-      "on_scheduled_tick",
-      "on_place",
-      "get_state_for_neighbor_update",
-      "can_place_at"
-    ]
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "RailBlock",
@@ -274,342 +617,25 @@
       "placed",
       "on_neighbor_update",
       "can_place_at"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "BedBlock",
-    "methods": [
-      "can_place_at",
-      "on_place",
-      "placed",
-      "broken",
-      "normal_use"
-    ]
-  },
-  {
-    "class_name": "RedstoneLamp",
-    "methods": [
-      "on_place",
-      "on_neighbor_update",
-      "on_scheduled_tick"
-    ]
-  },
-  {
-    "class_name": "LeverBlock",
-    "methods": [
-      "normal_use",
-      "emits_redstone_power",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "on_state_replaced",
-      "on_place",
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "DispenserBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "CopperBulbBlock",
-    "methods": [
-      "on_place",
-      "on_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "BambooBlock",
-    "methods": [
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "LogBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "PumpkinBlock",
-    "methods": [
-      "use_with_item"
-    ]
-  },
-  {
-    "class_name": "NetherWartBlock",
+    "class_name": "DryVegetationBlock",
     "methods": [
       "can_place_at",
       "get_state_for_neighbor_update"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "TripwireHookBlock",
-    "methods": [
-      "on_place",
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick",
-      "on_state_replaced",
-      "emits_redstone_power",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "CandleCakeBlock",
-    "methods": [
-      "use_with_item",
-      "normal_use"
-    ]
-  },
-  {
-    "class_name": "RedstoneTorchBlock",
-    "methods": [
-      "on_place",
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "on_neighbor_update",
-      "emits_redstone_power",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "on_scheduled_tick",
-      "placed",
-      "on_state_replaced"
-    ]
-  },
-  {
-    "class_name": "EndRodBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "CarvedPumpkinBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "AnvilBlock",
-    "methods": [
-      "on_place",
-      "placed",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick"
-    ]
-  },
-  {
-    "class_name": "CakeBlock",
-    "methods": [
-      "use_with_item",
-      "normal_use"
-    ]
-  },
-  {
-    "class_name": "ObserverBlock",
-    "methods": [
-      "on_place",
-      "on_neighbor_update",
-      "on_scheduled_tick",
-      "get_state_for_neighbor_update",
-      "emits_redstone_power",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "on_state_replaced"
-    ]
-  },
-  {
-    "class_name": "ButtonBlock",
-    "methods": [
-      "normal_use",
-      "on_scheduled_tick",
-      "emits_redstone_power",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "on_state_replaced",
-      "on_place",
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "WheatBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "random_tick"
-    ]
-  },
-  {
-    "class_name": "EndPortalFrameBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "TripwireBlock",
+    "class_name": "CampfireBlock",
     "methods": [
       "on_entity_collision",
       "on_place",
-      "placed",
-      "broken",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick",
-      "on_state_replaced"
-    ]
-  },
-  {
-    "class_name": "FireBlock",
-    "methods": [
-      "placed",
-      "on_entity_collision",
-      "get_state_for_neighbor_update",
-      "can_place_at",
-      "on_scheduled_tick",
-      "broken"
-    ]
-  },
-  {
-    "class_name": "SpawnerBlock",
-    "methods": [
-      "placed"
-    ]
-  },
-  {
-    "class_name": "BarrelBlock",
-    "methods": [
-      "normal_use",
-      "on_place",
-      "placed"
-    ]
-  },
-  {
-    "class_name": "SlabBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "TorchBlock",
-    "methods": [
-      "on_place",
-      "can_place_at",
       "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "SugarCaneBlock",
-    "methods": [
-      "on_scheduled_tick",
-      "random_tick",
-      "get_state_for_neighbor_update",
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "LanternBlock",
-    "methods": [
-      "on_place",
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick"
-    ]
-  },
-  {
-    "class_name": "BeetrootBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "random_tick"
-    ]
-  },
-  {
-    "class_name": "BannerBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "SeaPickleBlock",
-    "methods": [
-      "use_with_item",
-      "on_place",
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "LilyPadBlock",
-    "methods": [
-      "on_entity_collision",
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "FlowerPotBlock",
-    "methods": [
-      "use_with_item",
-      "random_tick"
-    ]
-  },
-  {
-    "class_name": "EndPortalBlock",
-    "methods": [
-      "on_entity_collision",
-      "placed"
-    ]
-  },
-  {
-    "class_name": "HopperBlock",
-    "methods": [
-      "normal_use",
-      "on_place",
-      "placed",
-      "on_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "ChestBlock",
-    "methods": [
-      "on_place",
-      "on_synced_block_event",
-      "placed",
-      "normal_use",
-      "broken"
-    ]
-  },
-  {
-    "class_name": "GlazedTerracottaBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "SmokerBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "RepeaterBlock",
-    "methods": [
-      "on_place",
-      "on_neighbor_update",
-      "on_scheduled_tick",
-      "normal_use",
-      "get_weak_redstone_power",
-      "get_strong_redstone_power",
-      "emits_redstone_power",
-      "can_place_at",
-      "placed",
-      "get_state_for_neighbor_update",
-      "on_state_replaced"
-    ]
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "ActivatorRailBlock",
@@ -621,78 +647,8 @@
       "can_place_at",
       "emits_redstone_power",
       "get_weak_redstone_power"
-    ]
-  },
-  {
-    "class_name": "CraftingTableBlock",
-    "methods": [
-      "normal_use"
-    ]
-  },
-  {
-    "class_name": "ShulkerBoxBlock",
-    "methods": [
-      "on_place",
-      "on_synced_block_event",
-      "placed",
-      "normal_use"
-    ]
-  },
-  {
-    "class_name": "StairBlock",
-    "methods": [
-      "on_place",
-      "on_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "CarrotBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "random_tick"
-    ]
-  },
-  {
-    "class_name": "AttachedStemBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "BushBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "LeafLitterBlock",
-    "methods": [
-      "can_place_at",
-      "on_place",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "PistonExtensionBlock",
-    "methods": [
-      "broken"
-    ]
-  },
-  {
-    "class_name": "ShortPlantBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "TargetBlock",
-    "methods": [
-      "emits_redstone_power"
-    ]
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "TrapDoorBlock",
@@ -700,40 +656,26 @@
       "normal_use",
       "on_place",
       "on_neighbor_update"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "RootsBlock",
+    "class_name": "SugarCaneBlock",
     "methods": [
-      "can_place_at",
+      "on_scheduled_tick",
+      "random_tick",
       "get_state_for_neighbor_update",
       "can_place_at"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "ChainBlock",
+    "class_name": "MushroomPlantBlock",
     "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "SignBlock",
-    "methods": [
-      "on_place",
-      "placed",
-      "on_state_replaced",
-      "normal_use",
-      "use_with_item"
-    ]
-  },
-  {
-    "class_name": "ComposterBlock",
-    "methods": [
-      "normal_use",
-      "use_with_item",
-      "on_scheduled_tick",
-      "get_comparator_output"
-    ]
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "ComparatorBlock",
@@ -750,21 +692,111 @@
       "on_neighbor_update",
       "on_scheduled_tick",
       "on_state_replaced"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "GlassPaneBlock",
+    "class_name": "JukeboxBlock",
     "methods": [
-      "on_place",
-      "get_state_for_neighbor_update"
-    ]
+      "use_with_item",
+      "broken"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "DryVegetationBlock",
+    "class_name": "BannerBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NetherWartBlock",
     "methods": [
       "can_place_at",
       "get_state_for_neighbor_update"
-    ]
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AttachedStemBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LilyPadBlock",
+    "methods": [
+      "on_entity_collision",
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChiseledBookshelfBlock",
+    "methods": [
+      "on_place",
+      "normal_use",
+      "use_with_item",
+      "placed",
+      "get_comparator_output"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AnvilBlock",
+    "methods": [
+      "on_place",
+      "placed",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DirtPathBlock",
+    "methods": [
+      "on_scheduled_tick",
+      "on_place",
+      "get_state_for_neighbor_update",
+      "can_place_at"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DropperBlock",
+    "methods": [
+      "normal_use",
+      "on_place",
+      "placed",
+      "on_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FarmlandBlock",
+    "methods": [
+      "on_scheduled_tick",
+      "on_place",
+      "get_state_for_neighbor_update",
+      "can_place_at",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShulkerBoxBlock",
+    "methods": [
+      "on_place",
+      "on_synced_block_event",
+      "placed",
+      "normal_use"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "CactusBlock",
@@ -774,45 +806,8 @@
       "on_entity_collision",
       "get_state_for_neighbor_update",
       "can_place_at"
-    ]
-  },
-  {
-    "class_name": "PaleMossCarpetBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick"
-    ]
-  },
-  {
-    "class_name": "EnderChestBlock",
-    "methods": [
-      "on_place"
-    ]
-  },
-  {
-    "class_name": "StemBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "random_tick"
-    ]
-  },
-  {
-    "class_name": "CampfireBlock",
-    "methods": [
-      "on_entity_collision",
-      "on_place",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "TorchFlowerBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "random_tick"
-    ]
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "FlowerBlock",
@@ -820,25 +815,192 @@
       "can_place_at",
       "get_state_for_neighbor_update",
       "random_tick"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "RedstoneBlock",
+    "class_name": "TallPlantBlock",
     "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PressurePlateBlock",
+    "methods": [
+      "on_entity_collision",
+      "on_scheduled_tick",
+      "on_state_replaced",
       "get_weak_redstone_power",
-      "emits_redstone_power"
-    ]
+      "get_strong_redstone_power",
+      "emits_redstone_power",
+      "on_neighbor_update",
+      "can_place_at"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "NoteBlock",
+    "class_name": "BedBlock",
     "methods": [
-      "on_neighbor_update",
-      "normal_use",
-      "use_with_item",
+      "can_place_at",
+      "on_place",
+      "placed",
+      "broken",
+      "normal_use"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChestBlock",
+    "methods": [
+      "on_place",
       "on_synced_block_event",
+      "placed",
+      "normal_use",
+      "broken"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BambooBlock",
+    "methods": [
+      "can_place_at"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MossCarpetBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PaleMossCarpetBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "on_scheduled_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CarvedPumpkinBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChainBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StairBlock",
+    "methods": [
+      "on_place",
+      "on_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CakeBlock",
+    "methods": [
+      "use_with_item",
+      "normal_use"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PistonBlock",
+    "methods": [
+      "on_place",
+      "placed",
+      "on_neighbor_update",
+      "on_synced_block_event"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GlassPaneBlock",
+    "methods": [
       "on_place",
       "get_state_for_neighbor_update"
-    ]
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FenceGateBlock",
+    "methods": [
+      "on_place",
+      "get_state_for_neighbor_update",
+      "normal_use"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WeightedPressurePlateBlock",
+    "methods": [
+      "on_entity_collision",
+      "on_scheduled_tick",
+      "on_state_replaced",
+      "get_weak_redstone_power",
+      "get_strong_redstone_power",
+      "emits_redstone_power",
+      "on_neighbor_update",
+      "can_place_at"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CarrotBlock",
+    "methods": [
+      "can_place_at",
+      "get_state_for_neighbor_update",
+      "random_tick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FlowerbedBlock",
+    "methods": [
+      "can_place_at",
+      "on_place",
+      "get_state_for_neighbor_update"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndPortalFrameBlock",
+    "methods": [
+      "on_place"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireBlock",
+    "methods": [
+      "placed",
+      "on_entity_collision",
+      "get_state_for_neighbor_update",
+      "can_place_at",
+      "on_scheduled_tick",
+      "broken"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PistonExtensionBlock",
+    "methods": [
+      "broken"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "GrindstoneBlock",
@@ -847,76 +1009,21 @@
       "can_place_at",
       "get_state_for_neighbor_update",
       "can_place_at"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "FallingBlock",
+    "class_name": "SpawnerBlock",
     "methods": [
-      "placed",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick"
-    ]
+      "placed"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "BlastFurnaceBlock",
+    "class_name": "SmokerBlock",
     "methods": [
       "on_place"
-    ]
-  },
-  {
-    "class_name": "MushroomPlantBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update"
-    ]
-  },
-  {
-    "class_name": "CarpetBlock",
-    "methods": [
-      "can_place_at",
-      "get_state_for_neighbor_update",
-      "on_scheduled_tick"
-    ]
-  },
-  {
-    "class_name": "CommandBlock",
-    "methods": [
-      "on_neighbor_update",
-      "on_scheduled_tick",
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "FenceGateBlock",
-    "methods": [
-      "on_place",
-      "get_state_for_neighbor_update",
-      "normal_use"
-    ]
-  },
-  {
-    "class_name": "CandleBlock",
-    "methods": [
-      "on_place",
-      "use_with_item",
-      "normal_use",
-      "can_place_at"
-    ]
-  },
-  {
-    "class_name": "NetherPortalBlock",
-    "methods": [
-      "get_state_for_neighbor_update",
-      "on_entity_collision"
-    ]
-  },
-  {
-    "class_name": "TNTBlock",
-    "methods": [
-      "use_with_item",
-      "placed",
-      "on_neighbor_update",
-      "explode"
-    ]
+    ],
+    "is_real_class": true
   }
 ]

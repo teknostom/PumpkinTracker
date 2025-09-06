@@ -1,39 +1,86 @@
 [
   {
-    "class_name": "SculkSensorBlock",
-    "methods": [
-      "getPlacementState",
-      "scheduledTick",
-      "onBlockAdded",
-      "onStateReplaced",
-      "getStateForNeighborUpdate",
-      "createBlockEntity",
-      "emitsRedstonePower",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "RotatedInfestedBlock",
+    "class_name": "PillarBlock",
     "methods": [
       "getPlacementState"
-    ]
+    ],
+    "is_real_class": false
   },
   {
-    "class_name": "SnifferEggBlock",
+    "class_name": "OxidizableBlock",
     "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "IceBlock",
+    "methods": [
+      "randomTick"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "LootableContainerBlockEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BeetrootsBlock",
+    "methods": [
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndPortalBlockEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BulbBlock",
+    "methods": [
+      "onBlockAdded",
+      "neighborUpdate",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "EyeblossomBlock",
+    "methods": [
+      "randomTick",
       "scheduledTick",
-      "onBlockAdded"
-    ]
+      "onEntityCollision"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "AbstractTorchBlock",
+    "class_name": "ChorusPlantBlock",
     "methods": [
+      "getPlacementState",
       "getStateForNeighborUpdate",
+      "scheduledTick",
       "canPlaceAt"
-    ]
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeaconBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Single",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "InfestedBlock",
+    "methods": [],
+    "is_real_class": false
   },
   {
     "class_name": "DispenserBlock",
@@ -46,1336 +93,23 @@
       "onStateReplaced",
       "hasComparatorOutput",
       "getComparatorOutput"
-    ]
+    ],
+    "is_real_class": false
   },
   {
-    "class_name": "ConcretePowderBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
+    "class_name": "SandBlock",
+    "methods": [],
+    "is_real_class": true
   },
   {
-    "class_name": "DetectorRailBlock",
-    "methods": [
-      "emitsRedstonePower",
-      "onEntityCollision",
-      "scheduledTick",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower",
-      "onBlockAdded",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
+    "class_name": "SculkShriekerWarningManager",
+    "methods": [],
+    "is_real_class": true
   },
   {
-    "class_name": "AttachedStemBlock",
-    "methods": [
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "StonecutterBlock",
-    "methods": [
-      "getPlacementState",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "CommandBlock",
-    "methods": [
-      "createBlockEntity",
-      "neighborUpdate",
-      "scheduledTick",
-      "onUse",
-      "hasComparatorOutput",
-      "getComparatorOutput",
-      "onPlaced",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "NetherPortalBlock",
-    "methods": [
-      "randomTick",
-      "getStateForNeighborUpdate",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "TestBlock",
-    "methods": [
-      "createBlockEntity",
-      "getPlacementState",
-      "onUse",
-      "scheduledTick",
-      "neighborUpdate",
-      "getWeakRedstonePower"
-    ]
-  },
-  {
-    "class_name": "JukeboxBlockEntity",
-    "methods": [
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "FenceBlock",
-    "methods": [
-      "onUse",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "CampfireBlock",
-    "methods": [
-      "onUseWithItem",
-      "onEntityCollision",
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "onProjectileHit",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "PaneBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "LeveledCauldronBlock",
-    "methods": [
-      "onEntityCollision",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "ChainBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "ButtonBlock",
-    "methods": [
-      "onUse",
-      "onExploded",
-      "onStateReplaced",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower",
-      "emitsRedstonePower",
-      "scheduledTick",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "BeaconBlock",
-    "methods": [
-      "createBlockEntity",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "WallWitherSkullBlock",
-    "methods": [
-      "onPlaced"
-    ]
-  },
-  {
-    "class_name": "CoralWallFanBlock",
-    "methods": [
-      "onBlockAdded",
-      "scheduledTick",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "HangingSignBlock",
-    "methods": [
-      "onUseWithItem",
-      "canPlaceAt",
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "BambooShootBlock",
-    "methods": [
-      "randomTick",
-      "canPlaceAt",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "LightBlock",
-    "methods": [
-      "onUse",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "FlowerPotBlock",
-    "methods": [
-      "onUseWithItem",
-      "onUse",
-      "getStateForNeighborUpdate",
-      "hasRandomTicks",
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "MushroomPlantBlock",
-    "methods": [
-      "randomTick",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "CreakingHeartBlockEntity",
-    "methods": [
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "OxidizableTrapdoorBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "OxidizableSlabBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "ChestBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState",
-      "onStateReplaced",
-      "onUse",
-      "createBlockEntity",
-      "hasComparatorOutput",
-      "getComparatorOutput",
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "PistonExtensionBlock",
-    "methods": [
-      "createBlockEntity",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "BannerBlock",
-    "methods": [
-      "canPlaceAt",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "SlabBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "ComposterBlock",
-    "methods": [
-      "onBlockAdded",
-      "onUseWithItem",
-      "onUse",
-      "scheduledTick",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "CaveVinesBodyBlock",
-    "methods": [
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "SnowBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "randomTick",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "DecoratedPotBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState",
-      "onUseWithItem",
-      "onUse",
-      "createBlockEntity",
-      "onStateReplaced",
-      "onBreak",
-      "onProjectileHit",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "RedstoneTorchBlock",
-    "methods": [
-      "onBlockAdded",
-      "onStateReplaced",
-      "getWeakRedstonePower",
-      "scheduledTick",
-      "neighborUpdate",
-      "getStrongRedstonePower",
-      "emitsRedstonePower"
-    ]
-  },
-  {
-    "class_name": "ScaffoldingBlock",
-    "methods": [
-      "getPlacementState",
-      "onBlockAdded",
-      "getStateForNeighborUpdate",
-      "scheduledTick",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "PistonBlock",
-    "methods": [
-      "onPlaced",
-      "neighborUpdate",
-      "onBlockAdded",
-      "getPlacementState",
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "AbstractPlantPartBlock",
-    "methods": [
-      "getPlacementState",
-      "canPlaceAt",
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "BambooBlock",
-    "methods": [
-      "getPlacementState",
-      "scheduledTick",
-      "hasRandomTicks",
-      "randomTick",
-      "canPlaceAt",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "CoralBlockBlock",
-    "methods": [
-      "scheduledTick",
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "PointedDripstoneBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "onProjectileHit",
-      "scheduledTick",
-      "randomTick",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "AnvilBlock",
-    "methods": [
-      "getPlacementState",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "WallBannerBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "TripwireHookBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "getPlacementState",
-      "onPlaced",
-      "scheduledTick",
-      "onStateReplaced",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower",
-      "emitsRedstonePower"
-    ]
-  },
-  {
-    "class_name": "FenceGateBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState",
-      "onUse",
-      "onExploded",
-      "neighborUpdate"
-    ]
-  },
-  {
-    "class_name": "TurtleEggBlock",
-    "methods": [
-      "randomTick",
-      "onBlockAdded",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "DropperBlock",
-    "methods": [
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "SpreadableBlock",
-    "methods": [
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "LadderBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "CarvedPumpkinBlock",
-    "methods": [
-      "onBlockAdded",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "AbstractBannerBlock",
-    "methods": [
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "EnderChestBlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "DaylightDetectorBlock",
-    "methods": [
-      "getWeakRedstonePower",
-      "onUse",
-      "emitsRedstonePower",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "SculkCatalystBlock",
-    "methods": [
-      "scheduledTick",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "SpawnerBlock",
-    "methods": [
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "OxidizableCopperGolemStatueBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick",
-      "onUseWithItem"
-    ]
-  },
-  {
-    "class_name": "ChorusPlantBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "scheduledTick",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "CandleCakeBlock",
-    "methods": [
-      "onUseWithItem",
-      "onUse",
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "getComparatorOutput",
-      "hasComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "SaplingBlock",
-    "methods": [
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "Block",
-    "methods": [
-      "getPlacementState",
-      "onPlaced",
-      "onBreak"
-    ]
-  },
-  {
-    "class_name": "SignBlock",
-    "methods": [
-      "canPlaceAt",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "EnderChestBlock",
-    "methods": [
-      "getPlacementState",
-      "onUse",
-      "createBlockEntity",
-      "getStateForNeighborUpdate",
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "TargetBlock",
-    "methods": [
-      "onProjectileHit",
-      "scheduledTick",
-      "getWeakRedstonePower",
-      "emitsRedstonePower",
-      "onBlockAdded"
-    ]
-  },
-  {
-    "class_name": "CocoaBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick",
-      "canPlaceAt",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "DoorBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "onExploded",
-      "onBreak",
-      "getPlacementState",
-      "onPlaced",
-      "onUse",
-      "neighborUpdate",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "TripwireBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "onBlockAdded",
-      "onStateReplaced",
-      "onBreak",
-      "onEntityCollision",
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "HoneyBlock",
-    "methods": [
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "CakeBlock",
-    "methods": [
-      "onUseWithItem",
-      "onUse",
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "getComparatorOutput",
-      "getComparatorOutput",
-      "hasComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "SoulSandBlock",
-    "methods": [
-      "scheduledTick",
-      "getStateForNeighborUpdate",
-      "onBlockAdded"
-    ]
-  },
-  {
-    "class_name": "EndPortalBlock",
-    "methods": [
-      "createBlockEntity",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "CrafterBlock",
-    "methods": [
-      "hasComparatorOutput",
-      "getComparatorOutput",
-      "neighborUpdate",
-      "scheduledTick",
-      "createBlockEntity",
-      "getPlacementState",
-      "onPlaced",
-      "onStateReplaced",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "FrostedIceBlock",
-    "methods": [
-      "onBlockAdded",
-      "scheduledTick",
-      "neighborUpdate"
-    ]
-  },
-  {
-    "class_name": "AbstractFurnaceBlock",
-    "methods": [
-      "onUse",
-      "getPlacementState",
-      "onStateReplaced",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "MobSpawnerBlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "SeaPickleBlock",
-    "methods": [
-      "getPlacementState",
-      "canPlaceAt",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "AbstractCoralBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "WitherSkullBlock",
-    "methods": [
-      "onPlaced",
-      "onPlaced",
-      "onPlaced"
-    ]
-  },
-  {
-    "class_name": "RedstoneWireBlock",
-    "methods": [
-      "getPlacementState",
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "prepare",
-      "canPlaceAt",
-      "onBlockAdded",
-      "onStateReplaced",
-      "neighborUpdate",
-      "getStrongRedstonePower",
-      "getWeakRedstonePower",
-      "emitsRedstonePower",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "BellBlock",
-    "methods": [
-      "neighborUpdate",
-      "onProjectileHit",
-      "onUse",
-      "getPlacementState",
-      "onExploded",
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "PlantBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "JigsawBlock",
-    "methods": [
-      "getPlacementState",
-      "createBlockEntity",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "SculkShriekerBlock",
-    "methods": [
-      "scheduledTick",
-      "createBlockEntity",
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "StructureBlock",
-    "methods": [
-      "createBlockEntity",
-      "onUse",
-      "onPlaced",
-      "neighborUpdate"
-    ]
-  },
-  {
-    "class_name": "TrapdoorBlock",
-    "methods": [
-      "onUse",
-      "onExploded",
-      "neighborUpdate",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "SnowyBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "BuddingAmethystBlock",
-    "methods": [
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "TntBlock",
-    "methods": [
-      "onBlockAdded",
-      "neighborUpdate",
-      "onBreak",
-      "onUseWithItem",
-      "onProjectileHit"
-    ]
-  },
-  {
-    "class_name": "HeavyCoreBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "DeadCoralWallFanBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "EndGatewayBlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "ConduitBlock",
-    "methods": [
-      "createBlockEntity",
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "WetSpongeBlock",
-    "methods": [
-      "onBlockAdded"
-    ]
-  },
-  {
-    "class_name": "TrialSpawnerBlock",
-    "methods": [
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "OxidizableGrateBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "MagmaBlock",
-    "methods": [
-      "scheduledTick",
-      "getStateForNeighborUpdate",
-      "onBlockAdded"
-    ]
-  },
-  {
-    "class_name": "ObserverBlock",
-    "methods": [
-      "scheduledTick",
-      "getStateForNeighborUpdate",
-      "emitsRedstonePower",
-      "getStrongRedstonePower",
-      "getWeakRedstonePower",
-      "onBlockAdded",
-      "onStateReplaced",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "ChestBlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "LavaCauldronBlock",
-    "methods": [
-      "onEntityCollision",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "WitherRoseBlock",
-    "methods": [
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "AbstractFireBlock",
-    "methods": [
-      "getPlacementState",
-      "onEntityCollision",
-      "onBlockAdded",
-      "onBreak",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "CaveVinesHeadBlock",
-    "methods": [
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "BlastFurnaceBlock",
-    "methods": [
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "DecoratedPotBlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "FluidBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick",
-      "onBlockAdded",
-      "getStateForNeighborUpdate",
-      "neighborUpdate"
-    ]
-  },
-  {
-    "class_name": "DragonEggBlock",
-    "methods": [
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "OxidizableDoorBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "BellBlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "LecternBlock",
-    "methods": [
-      "getPlacementState",
-      "createBlockEntity",
-      "scheduledTick",
-      "onStateReplaced",
-      "emitsRedstonePower",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower",
-      "hasComparatorOutput",
-      "getComparatorOutput",
-      "onUseWithItem",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "FallingBlock",
-    "methods": [
-      "onBlockAdded",
-      "getStateForNeighborUpdate",
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "SpongeBlock",
-    "methods": [
-      "onBlockAdded",
-      "neighborUpdate"
-    ]
-  },
-  {
-    "class_name": "CartographyTableBlock",
-    "methods": [
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "LilyPadBlock",
-    "methods": [
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "AbstractRailBlock",
-    "methods": [
-      "canPlaceAt",
-      "onBlockAdded",
-      "neighborUpdate",
-      "onStateReplaced",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "RepeaterBlock",
-    "methods": [
-      "onUse",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "SoulFireBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "SweetBerryBushBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick",
-      "onEntityCollision",
-      "onUseWithItem",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "SmithingTableBlock",
-    "methods": [
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "FarmlandBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "getPlacementState",
-      "scheduledTick",
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "OxidizableCopperChestBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "BrushableBlock",
-    "methods": [
-      "onBlockAdded",
-      "getStateForNeighborUpdate",
-      "scheduledTick",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "BrushableBlockEntity",
-    "methods": [
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "EnchantingTableBlock",
-    "methods": [
-      "createBlockEntity",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "FlowerbedBlock",
-    "methods": [
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "SeagrassBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "EndRodBlock",
-    "methods": [
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "TrappedChestBlock",
-    "methods": [
-      "createBlockEntity",
-      "emitsRedstonePower",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower"
-    ]
-  },
-  {
-    "class_name": "OxidizableLightningRodBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "FireBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState",
-      "canPlaceAt",
-      "scheduledTick",
-      "onBlockAdded"
-    ]
-  },
-  {
-    "class_name": "EndPortalFrameBlock",
-    "methods": [
-      "getPlacementState",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "ShelfBlock",
-    "methods": [
-      "createBlockEntity",
-      "onStateReplaced",
-      "neighborUpdate",
-      "getPlacementState",
-      "onUseWithItem",
-      "onBlockAdded",
-      "getStateForNeighborUpdate",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "AbstractPressurePlateBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "scheduledTick",
-      "onEntityCollision",
-      "onStateReplaced",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower",
-      "emitsRedstonePower"
-    ]
-  },
-  {
-    "class_name": "BubbleColumnBlock",
-    "methods": [
-      "onEntityCollision",
-      "scheduledTick",
-      "getStateForNeighborUpdate",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "SugarCaneBlock",
-    "methods": [
-      "scheduledTick",
-      "randomTick",
-      "getStateForNeighborUpdate",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "AbstractPlantBlock",
-    "methods": [
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "AbstractSkullBlock",
-    "methods": [
-      "createBlockEntity",
-      "getPlacementState",
-      "neighborUpdate"
-    ]
-  },
-  {
-    "class_name": "BarrelBlock",
-    "methods": [
-      "onUse",
-      "onStateReplaced",
-      "scheduledTick",
-      "createBlockEntity",
-      "hasComparatorOutput",
-      "getComparatorOutput",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "IceBlock",
-    "methods": [
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "MangroveRootsBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "BedBlock",
-    "methods": [
-      "onUse",
-      "getStateForNeighborUpdate",
-      "onBreak",
-      "getPlacementState",
-      "createBlockEntity",
-      "onPlaced"
-    ]
-  },
-  {
-    "class_name": "AbstractSignBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "createBlockEntity",
-      "onUseWithItem",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "CoralBlock",
-    "methods": [
-      "onBlockAdded",
-      "scheduledTick",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "SkullBlock",
-    "methods": [
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "TallSeagrassBlock",
-    "methods": [
-      "getPlacementState",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "RedstoneLampBlock",
-    "methods": [
-      "getPlacementState",
-      "neighborUpdate",
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "SmokerBlock",
-    "methods": [
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "NoteBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "neighborUpdate",
-      "onUseWithItem",
-      "onUse",
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "TorchflowerBlock",
-    "methods": [
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "WallSignBlock",
-    "methods": [
-      "canPlaceAt",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "JukeboxBlock",
-    "methods": [
-      "onPlaced",
-      "onUse",
-      "onUseWithItem",
-      "onStateReplaced",
-      "createBlockEntity",
-      "emitsRedstonePower",
-      "getWeakRedstonePower",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "FrogspawnBlock",
-    "methods": [
-      "canPlaceAt",
-      "onBlockAdded",
-      "getStateForNeighborUpdate",
-      "scheduledTick",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "BlockWithEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "VineBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "randomTick",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "KelpBlock",
-    "methods": [
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "PumpkinBlock",
-    "methods": [
-      "onUseWithItem"
-    ]
-  },
-  {
-    "class_name": "BeehiveBlock",
-    "methods": [
-      "hasComparatorOutput",
-      "getComparatorOutput",
-      "onExploded",
-      "onUseWithItem",
-      "getPlacementState",
-      "createBlockEntity",
-      "onBreak",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "CactusBlock",
-    "methods": [
-      "scheduledTick",
-      "randomTick",
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "ChiseledBookshelfBlock",
-    "methods": [
-      "onUseWithItem",
-      "onUse",
-      "createBlockEntity",
-      "onStateReplaced",
-      "getPlacementState",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
+    "class_name": "FlowerBlock",
+    "methods": [],
+    "is_real_class": false
   },
   {
     "class_name": "AbstractBlock",
@@ -1400,7 +134,1032 @@
       "getStrongRedstonePower",
       "onProjectileHit",
       "hasRandomTicks"
-    ]
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BarrierBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PressurePlateBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SaplingBlock",
+    "methods": [
+      "randomTick"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CalibratedSculkSensorBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DragonEggBlock",
+    "methods": [
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GlazedTerracottaBlock",
+    "methods": [
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkSensorBlock",
+    "methods": [
+      "getPlacementState",
+      "scheduledTick",
+      "onBlockAdded",
+      "onStateReplaced",
+      "getStateForNeighborUpdate",
+      "createBlockEntity",
+      "emitsRedstonePower",
+      "getWeakRedstonePower",
+      "getStrongRedstonePower",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SignBlock",
+    "methods": [
+      "canPlaceAt",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VineBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "randomTick",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FarmlandBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "getPlacementState",
+      "scheduledTick",
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemDispenserBehavior",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SmokerBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StairsBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "StainedGlassBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PowderSnowBlock",
+    "methods": [
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockState",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallPiglinHeadBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Server",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VaultBlock",
+    "methods": [
+      "onUseWithItem",
+      "createBlockEntity",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RootedDirtBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "EndGatewayBlockEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "JukeboxBlockEntity",
+    "methods": [
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VaultBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkShriekerBlock",
+    "methods": [
+      "scheduledTick",
+      "createBlockEntity",
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LanternBlock",
+    "methods": [
+      "getPlacementState",
+      "canPlaceAt",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BlockPlacementDispenserBehavior",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneLampBlock",
+    "methods": [
+      "getPlacementState",
+      "neighborUpdate",
+      "scheduledTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderChestBlock",
+    "methods": [
+      "getPlacementState",
+      "onUse",
+      "createBlockEntity",
+      "getStateForNeighborUpdate",
+      "scheduledTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrostedIceBlock",
+    "methods": [
+      "onBlockAdded",
+      "scheduledTick",
+      "neighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CoralFanBlock",
+    "methods": [
+      "onBlockAdded",
+      "scheduledTick",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableStairsBlock",
+    "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PropaguleBlock",
+    "methods": [
+      "getPlacementState",
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MyceliumBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TorchflowerBlock",
+    "methods": [
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TargetBlock",
+    "methods": [
+      "onProjectileHit",
+      "scheduledTick",
+      "getWeakRedstonePower",
+      "emitsRedstonePower",
+      "onBlockAdded"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HangingRootsBlock",
+    "methods": [
+      "getPlacementState",
+      "canPlaceAt",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GrateBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PaneBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "UntintedParticleLeavesBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkSpreadManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChestLidAnimator",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NyliumBlock",
+    "methods": [
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractBannerBlock",
+    "methods": [
+      "createBlockEntity"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "JukeboxManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeehiveBlock",
+    "methods": [
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "onExploded",
+      "onUseWithItem",
+      "getPlacementState",
+      "createBlockEntity",
+      "onBreak",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TestInstanceBlock",
+    "methods": [
+      "createBlockEntity",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SweetBerryBushBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick",
+      "onEntityCollision",
+      "onUseWithItem",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Result",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WeepingVinesPlantBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LavaCauldronBlock",
+    "methods": [
+      "onEntityCollision",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrialSpawnerLogic",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TwistingVinesPlantBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockKeys",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DecoratedPotPatterns",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TallSeagrassBlock",
+    "methods": [
+      "getPlacementState",
+      "canPlaceAt"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TintedParticleLeavesBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SeagrassBlock",
+    "methods": [
+      "getPlacementState",
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrapdoorBlock",
+    "methods": [
+      "onUse",
+      "onExploded",
+      "neighborUpdate",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "HorizontalFacingBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AzaleaBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EquippableDispenserBehavior",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TestBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StemBlock",
+    "methods": [
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BrushableBlockEntity",
+    "methods": [
+      "scheduledTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FenceBlock",
+    "methods": [
+      "onUse",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ComposterBlock",
+    "methods": [
+      "onBlockAdded",
+      "onUseWithItem",
+      "onUse",
+      "scheduledTick",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallMountedBlock",
+    "methods": [
+      "canPlaceAt",
+      "canPlaceAt",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "Client",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RepeaterBlock",
+    "methods": [
+      "onUse",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallWitherSkullBlock",
+    "methods": [
+      "onPlaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MangroveRootsBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WeepingVinesBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FurnaceBlock",
+    "methods": [
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PistonHandler",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HangingSignBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ComparatorBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreakingHeartBlockEntity",
+    "methods": [
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VibrationCallback",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FallingBlock",
+    "methods": [
+      "onBlockAdded",
+      "getStateForNeighborUpdate",
+      "scheduledTick"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "Settings",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FenceGateBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "getPlacementState",
+      "onUse",
+      "onExploded",
+      "neighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractFireBlock",
+    "methods": [
+      "getPlacementState",
+      "onEntityCollision",
+      "onBlockAdded",
+      "onBreak",
+      "canPlaceAt"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CarvedPumpkinBlock",
+    "methods": [
+      "onBlockAdded",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SlabBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "EnchantingTableBlock",
+    "methods": [
+      "createBlockEntity",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneTorchBlock",
+    "methods": [
+      "onBlockAdded",
+      "onStateReplaced",
+      "getWeakRedstonePower",
+      "scheduledTick",
+      "neighborUpdate",
+      "getStrongRedstonePower",
+      "emitsRedstonePower"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "Absent",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MudBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VaultClientData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CocoaBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick",
+      "canPlaceAt",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MossBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChainBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ChiseledBookshelfBlock",
+    "methods": [
+      "onUseWithItem",
+      "onUse",
+      "createBlockEntity",
+      "onStateReplaced",
+      "getPlacementState",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeamSegment",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HopperBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractSignBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "createBlockEntity",
+      "onUseWithItem",
+      "onUse"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "JukeboxBlock",
+    "methods": [
+      "onPlaced",
+      "onUse",
+      "onUseWithItem",
+      "onStateReplaced",
+      "createBlockEntity",
+      "emitsRedstonePower",
+      "getWeakRedstonePower",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShelfBlock",
+    "methods": [
+      "createBlockEntity",
+      "createBlockEntity",
+      "createBlockEntity",
+      "onStateReplaced",
+      "onStateReplaced",
+      "onStateReplaced",
+      "neighborUpdate",
+      "neighborUpdate",
+      "neighborUpdate",
+      "getPlacementState",
+      "getPlacementState",
+      "getPlacementState",
+      "onUseWithItem",
+      "onUseWithItem",
+      "onUseWithItem",
+      "onBlockAdded",
+      "onBlockAdded",
+      "onBlockAdded",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate",
+      "hasComparatorOutput",
+      "hasComparatorOutput",
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "getComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrogspawnBlock",
+    "methods": [
+      "canPlaceAt",
+      "onBlockAdded",
+      "getStateForNeighborUpdate",
+      "scheduledTick",
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkSensorBlockEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PlayerSkullBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WeightedPressurePlateBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HeavyCoreBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneBlock",
+    "methods": [
+      "emitsRedstonePower",
+      "getWeakRedstonePower"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnchantingTableBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DoorBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "onExploded",
+      "onBreak",
+      "getPlacementState",
+      "onPlaced",
+      "onUse",
+      "neighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "StainedGlassPaneBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BushBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrialSpawnerBlock",
+    "methods": [
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VaultServerData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BannerBlock",
+    "methods": [
+      "canPlaceAt",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeverBlock",
+    "methods": [
+      "onUse",
+      "onExploded",
+      "onStateReplaced",
+      "getWeakRedstonePower",
+      "getStrongRedstonePower",
+      "emitsRedstonePower"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChestBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "getPlacementState",
+      "onStateReplaced",
+      "onUse",
+      "createBlockEntity",
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "scheduledTick"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "VineLogic",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LoomBlock",
+    "methods": [
+      "onUse",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkCatalystBlock",
+    "methods": [
+      "scheduledTick",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreakingHeartBlock",
+    "methods": [
+      "createBlockEntity",
+      "getStateForNeighborUpdate",
+      "scheduledTick",
+      "getPlacementState",
+      "onStateReplaced",
+      "onExploded",
+      "onBreak",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockPattern",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockStateCacheLoader",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractFurnaceBlock",
+    "methods": [
+      "onUse",
+      "getPlacementState",
+      "onStateReplaced",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TestBlock",
+    "methods": [
+      "createBlockEntity",
+      "getPlacementState",
+      "onUse",
+      "scheduledTick",
+      "neighborUpdate",
+      "getWeakRedstonePower"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TorchBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ConduitBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlastFurnaceBlock",
+    "methods": [
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DecoratedPotBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "getPlacementState",
+      "onUseWithItem",
+      "onUse",
+      "createBlockEntity",
+      "onStateReplaced",
+      "onBreak",
+      "onProjectileHit",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeafLitterBlock",
+    "methods": [
+      "canPlaceAt",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeehiveBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CoralBlock",
+    "methods": [
+      "onBlockAdded",
+      "scheduledTick",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Bee",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NetherrackBlock",
+    "methods": [],
+    "is_real_class": true
   },
   {
     "class_name": "CandleBlock",
@@ -1409,50 +1168,283 @@
       "getPlacementState",
       "getStateForNeighborUpdate",
       "canPlaceAt"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "OxidizableLanternBlock",
+    "class_name": "CropBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick",
+      "canPlaceAt",
+      "onEntityCollision"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BlockWithEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TrappedChestBlock",
+    "methods": [
+      "createBlockEntity",
+      "emitsRedstonePower",
+      "getWeakRedstonePower",
+      "getStrongRedstonePower"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SugarCaneBlock",
+    "methods": [
+      "scheduledTick",
+      "randomTick",
+      "getStateForNeighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockPatternBuilder",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TransparentBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "DecoratedPotBlockEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CachedBlockPosition",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CactusBlock",
+    "methods": [
+      "scheduledTick",
+      "randomTick",
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndRodBlock",
+    "methods": [
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockEntityType",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Block",
+    "methods": [
+      "getPlacementState",
+      "onPlaced",
+      "onBreak"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ShelfBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BellBlockEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SoulFireBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ComposterInventory",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DummyInventory",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HopperBlock",
+    "methods": [
+      "getPlacementState",
+      "createBlockEntity",
+      "onBlockAdded",
+      "onUse",
+      "neighborUpdate",
+      "onStateReplaced",
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableTrapdoorBlock",
     "methods": [
       "randomTick",
       "hasRandomTicks"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "AbstractCauldronBlock",
+    "class_name": "CarrotsBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "JigsawBlock",
     "methods": [
-      "onUseWithItem",
-      "hasComparatorOutput",
-      "scheduledTick"
-    ]
+      "getPlacementState",
+      "getPlacementState",
+      "createBlockEntity",
+      "createBlockEntity",
+      "onUse",
+      "onUse"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "PitcherCropBlock",
+    "class_name": "BedBlock",
+    "methods": [
+      "onUse",
+      "getStateForNeighborUpdate",
+      "onBreak",
+      "getPlacementState",
+      "createBlockEntity",
+      "onPlaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LightningRodBlock",
     "methods": [
       "getPlacementState",
       "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "onEntityCollision",
-      "onPlaced",
-      "hasRandomTicks",
-      "randomTick",
-      "canPlaceAt"
-    ]
+      "getWeakRedstonePower",
+      "getStrongRedstonePower",
+      "scheduledTick",
+      "onStateReplaced",
+      "onBlockAdded",
+      "emitsRedstonePower"
+    ],
+    "is_real_class": false
   },
   {
-    "class_name": "AbstractRedstoneGateBlock",
+    "class_name": "BarrelBlock",
     "methods": [
-      "canPlaceAt",
+      "onUse",
+      "onStateReplaced",
       "scheduledTick",
-      "getStrongRedstonePower",
-      "getWeakRedstonePower",
-      "neighborUpdate",
-      "emitsRedstonePower",
+      "createBlockEntity",
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallHangingSignBlock",
+    "methods": [
+      "onUseWithItem",
       "getPlacementState",
-      "onPlaced",
-      "onBlockAdded",
-      "onStateReplaced"
-    ]
+      "getStateForNeighborUpdate",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableCopperGolemStatueBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick",
+      "onUseWithItem"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "KelpPlantBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChorusFlowerBlock",
+    "methods": [
+      "scheduledTick",
+      "hasRandomTicks",
+      "randomTick",
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "onProjectileHit"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CaveVinesBodyBlock",
+    "methods": [
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CandleCakeBlock",
+    "methods": [
+      "onUseWithItem",
+      "onUse",
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "getComparatorOutput",
+      "hasComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VaultSharedData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MangroveLeavesBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "JigsawBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DyedCarpetBlock",
+    "methods": [],
+    "is_real_class": true
   },
   {
     "class_name": "AbstractBlockState",
@@ -1478,327 +1470,13 @@
       "canPlaceAt",
       "hasRandomTicks",
       "onProjectileHit"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "BlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "BrewingStandBlock",
-    "methods": [
-      "createBlockEntity",
-      "onUse",
-      "onStateReplaced",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "CraftingTableBlock",
-    "methods": [
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "EndGatewayBlock",
-    "methods": [
-      "createBlockEntity",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "OxidizablePaneBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "DirtPathBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "scheduledTick",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "AmethystClusterBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "LanternBlock",
-    "methods": [
-      "getPlacementState",
-      "canPlaceAt",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "GrindstoneBlock",
-    "methods": [
-      "canPlaceAt",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "OxidizableBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "PillarBlock",
-    "methods": [
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "CalibratedSculkSensorBlock",
-    "methods": [
-      "createBlockEntity",
-      "getPlacementState",
-      "getWeakRedstonePower"
-    ]
-  },
-  {
-    "class_name": "TallPlantBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState",
-      "onPlaced",
-      "canPlaceAt",
-      "onBreak"
-    ]
-  },
-  {
-    "class_name": "WallSkullBlock",
-    "methods": [
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "BigDripleafBlock",
-    "methods": [
-      "onProjectileHit",
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "onEntityCollision",
-      "scheduledTick",
-      "neighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "PaleMossCarpetBlock",
-    "methods": [
-      "canPlaceAt",
-      "getPlacementState",
-      "onPlaced",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "WallHangingSignBlock",
-    "methods": [
-      "onUseWithItem",
-      "getPlacementState",
-      "getStateForNeighborUpdate",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "CoralFanBlock",
-    "methods": [
-      "onBlockAdded",
-      "scheduledTick",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "CreakingHeartBlock",
-    "methods": [
-      "createBlockEntity",
-      "getStateForNeighborUpdate",
-      "scheduledTick",
-      "getPlacementState",
-      "onStateReplaced",
-      "onExploded",
-      "onBreak",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "ShulkerBoxBlockEntity",
-    "methods": [
-      "onSyncedBlockEvent"
-    ]
-  },
-  {
-    "class_name": "HangingRootsBlock",
-    "methods": [
-      "getPlacementState",
-      "canPlaceAt",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "StemBlock",
-    "methods": [
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "SporeBlossomBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "LecternBlockEntity",
-    "methods": [
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "CropBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick",
-      "canPlaceAt",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "WallMountedBlock",
-    "methods": [
-      "canPlaceAt",
-      "canPlaceAt",
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "CrafterBlockEntity",
-    "methods": [
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "OxidizableBulbBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "LoomBlock",
-    "methods": [
-      "onUse",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "HopperBlock",
-    "methods": [
-      "getPlacementState",
-      "createBlockEntity",
-      "onBlockAdded",
-      "onUse",
-      "neighborUpdate",
-      "onStateReplaced",
-      "hasComparatorOutput",
-      "getComparatorOutput",
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "CarpetBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "canPlaceAt"
-    ]
-  },
-  {
-    "class_name": "AbstractPlantStemBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "PistonHeadBlock",
-    "methods": [
-      "onBreak",
-      "onStateReplaced",
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "neighborUpdate"
-    ]
-  },
-  {
-    "class_name": "BeetrootsBlock",
-    "methods": [
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "ChorusFlowerBlock",
-    "methods": [
-      "scheduledTick",
-      "hasRandomTicks",
-      "randomTick",
-      "getStateForNeighborUpdate",
-      "canPlaceAt",
-      "onProjectileHit"
-    ]
-  },
-  {
-    "class_name": "GrateBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "CobwebBlock",
-    "methods": [
-      "onEntityCollision"
-    ]
-  },
-  {
-    "class_name": "BulbBlock",
-    "methods": [
-      "onBlockAdded",
-      "neighborUpdate",
-      "hasComparatorOutput",
-      "getComparatorOutput"
-    ]
-  },
-  {
-    "class_name": "BarrierBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "RedstoneBlock",
-    "methods": [
-      "emitsRedstonePower",
-      "getWeakRedstonePower"
-    ]
+    "class_name": "PotatoesBlock",
+    "methods": [],
+    "is_real_class": true
   },
   {
     "class_name": "RespawnAnchorBlock",
@@ -1808,22 +1486,148 @@
       "explode",
       "hasComparatorOutput",
       "getComparatorOutput"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "EyeblossomBlock",
+    "class_name": "AbstractRedstoneGateBlock",
+    "methods": [
+      "canPlaceAt",
+      "scheduledTick",
+      "getStrongRedstonePower",
+      "getWeakRedstonePower",
+      "neighborUpdate",
+      "emitsRedstonePower",
+      "getPlacementState",
+      "onPlaced",
+      "onBlockAdded",
+      "onStateReplaced"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CampfireBlock",
+    "methods": [
+      "onUseWithItem",
+      "onEntityCollision",
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "onProjectileHit",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MushroomBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrialSpawnerConfigs",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CommandBlockBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrialSpawnerBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlastFurnaceBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractPressurePlateBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "scheduledTick",
+      "onEntityCollision",
+      "onStateReplaced",
+      "getWeakRedstonePower",
+      "getStrongRedstonePower",
+      "emitsRedstonePower"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ProjectileDispenserBehavior",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MushroomPlantBlock",
     "methods": [
       "randomTick",
-      "scheduledTick",
-      "onEntityCollision"
-    ]
+      "canPlaceAt"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "NetherWartBlock",
+    "class_name": "SpreadableBlock",
     "methods": [
+      "randomTick"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PointedDripstoneBlock",
+    "methods": [
+      "canPlaceAt",
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate",
+      "onProjectileHit",
+      "onProjectileHit",
+      "scheduledTick",
+      "scheduledTick",
+      "randomTick",
+      "randomTick",
+      "getPlacementState",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneOreBlock",
+    "methods": [
+      "onUseWithItem",
       "hasRandomTicks",
       "randomTick"
-    ]
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ComparatorBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "onUse",
+      "scheduledTick",
+      "onSyncedBlockEvent",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BambooBlock",
+    "methods": [
+      "getPlacementState",
+      "scheduledTick",
+      "hasRandomTicks",
+      "randomTick",
+      "canPlaceAt",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "HangingMossBlock",
@@ -1832,43 +1636,632 @@
       "canPlaceAt",
       "getStateForNeighborUpdate",
       "scheduledTick"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "OxidizableChainBlock",
+    "class_name": "Builder",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MagmaBlock",
+    "methods": [
+      "scheduledTick",
+      "getStateForNeighborUpdate",
+      "onBlockAdded"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ExperienceDroppingBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CampfireBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BannerBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DoubleBlockProperties",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FlowerbedBlock",
+    "methods": [
+      "getPlacementState",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FallibleItemDispenserBehavior",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "MinecartDispenserBehavior",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FacingBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WallBannerBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AmethystClusterBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CrafterBlock",
+    "methods": [
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "neighborUpdate",
+      "scheduledTick",
+      "createBlockEntity",
+      "getPlacementState",
+      "onPlaced",
+      "onStateReplaced",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CobwebBlock",
+    "methods": [
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WitherSkullBlock",
+    "methods": [
+      "onPlaced",
+      "onPlaced",
+      "onPlaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallPlayerSkullBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LecternBlock",
+    "methods": [
+      "getPlacementState",
+      "createBlockEntity",
+      "scheduledTick",
+      "onStateReplaced",
+      "emitsRedstonePower",
+      "getWeakRedstonePower",
+      "getStrongRedstonePower",
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "onUseWithItem",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BannerPatterns",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkVeinBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GlowLichenBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndPortalFrameBlock",
+    "methods": [
+      "getPlacementState",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BuddingAmethystBlock",
+    "methods": [
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SaplingGenerator",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LockableContainerBlockEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TurtleEggBlock",
+    "methods": [
+      "randomTick",
+      "onBlockAdded",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RailPlacementHelper",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FullComposterInventory",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SlimeBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractCandleBlock",
+    "methods": [
+      "onProjectileHit",
+      "onExploded"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CoralWallFanBlock",
+    "methods": [
+      "onBlockAdded",
+      "scheduledTick",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DeadCoralBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableCopperChestBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BrushableBlock",
+    "methods": [
+      "onBlockAdded",
+      "getStateForNeighborUpdate",
+      "scheduledTick",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RedstoneWireBlock",
+    "methods": [
+      "getPlacementState",
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "prepare",
+      "canPlaceAt",
+      "onBlockAdded",
+      "onStateReplaced",
+      "neighborUpdate",
+      "getStrongRedstonePower",
+      "getWeakRedstonePower",
+      "emitsRedstonePower",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BedBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FlowerPotBlock",
+    "methods": [
+      "onUseWithItem",
+      "onUse",
+      "getStateForNeighborUpdate",
+      "hasRandomTicks",
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractChestBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TestInstanceBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallRedstoneTorchBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getPlacementState",
+      "getWeakRedstonePower"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ConduitBlock",
+    "methods": [
+      "createBlockEntity",
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DirtPathBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "scheduledTick",
+      "canPlaceAt"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WetSpongeBlock",
+    "methods": [
+      "onBlockAdded"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CalibratedSculkSensorBlock",
+    "methods": [
+      "createBlockEntity",
+      "getPlacementState",
+      "getWeakRedstonePower"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractPlantStemBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AirBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CraftingTableBlock",
+    "methods": [
+      "onUse"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AbstractRailBlock",
+    "methods": [
+      "canPlaceAt",
+      "onBlockAdded",
+      "neighborUpdate",
+      "onStateReplaced",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SproutsBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RootsBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractFurnaceBlockEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CopperGolemStatueBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractTorchBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BrewingStandBlock",
+    "methods": [
+      "createBlockEntity",
+      "onUse",
+      "onStateReplaced",
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ScaffoldingBlock",
+    "methods": [
+      "getPlacementState",
+      "onBlockAdded",
+      "getStateForNeighborUpdate",
+      "scheduledTick",
+      "canPlaceAt"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkShriekerBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GrassBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableLanternBlock",
     "methods": [
       "randomTick",
       "hasRandomTicks"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "CopperGolemStatueBlock",
+    "class_name": "PistonExtensionBlock",
+    "methods": [
+      "createBlockEntity",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DispenserBlockEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AnvilBlock",
     "methods": [
       "getPlacementState",
-      "onUseWithItem",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BubbleColumnBlock",
+    "methods": [
+      "onEntityCollision",
+      "scheduledTick",
+      "getStateForNeighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TripwireBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "onBlockAdded",
+      "onStateReplaced",
+      "onBreak",
+      "onEntityCollision",
+      "scheduledTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeavesBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick",
+      "scheduledTick",
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PistonBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SeaPickleBlock",
+    "methods": [
+      "getPlacementState",
+      "getPlacementState",
+      "canPlaceAt",
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LadderBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ColoredFallingBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "MultifaceGrower",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FungusBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PistonHeadBlock",
+    "methods": [
+      "onBreak",
+      "onStateReplaced",
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "neighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CommandBlock",
+    "methods": [
       "createBlockEntity",
+      "neighborUpdate",
+      "scheduledTick",
+      "onUse",
       "hasComparatorOutput",
       "getComparatorOutput",
-      "onStateReplaced",
-      "getStateForNeighborUpdate"
-    ]
+      "onPlaced",
+      "getPlacementState"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "DriedGhastBlock",
+    "class_name": "TallDryGrassBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ConnectingBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "DeadCoralWallFanBlock",
     "methods": [
       "getStateForNeighborUpdate",
-      "scheduledTick",
-      "randomTick",
-      "getPlacementState",
-      "onPlaced"
-    ]
+      "canPlaceAt",
+      "getPlacementState"
+    ],
+    "is_real_class": false
   },
   {
-    "class_name": "MushroomBlock",
+    "class_name": "SculkBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SmithingTableBlock",
     "methods": [
-      "getPlacementState",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderChestBlockEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SkullBlock",
+    "methods": [
+      "getPlacementState"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BambooShootBlock",
+    "methods": [
+      "randomTick",
+      "canPlaceAt",
       "getStateForNeighborUpdate"
-    ]
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NetherWartBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireflyBushBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableGrateBlock",
+    "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DryVegetationBlock",
+    "methods": [],
+    "is_real_class": false
   },
   {
     "class_name": "ShulkerBoxBlock",
@@ -1880,54 +2273,468 @@
       "onStateReplaced",
       "hasComparatorOutput",
       "getComparatorOutput"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "AbstractCandleBlock",
+    "class_name": "LichenGrowChecker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TranslucentBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SignText",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpongeBlock",
     "methods": [
-      "onProjectileHit",
-      "onExploded"
-    ]
+      "onBlockAdded",
+      "neighborUpdate"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "SmallDripleafBlock",
+    "class_name": "SculkCatalystBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BarrelBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BrewingStandBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CryingObsidianBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChestBlockEntity",
     "methods": [
-      "getPlacementState",
-      "onPlaced",
-      "canPlaceAt",
-      "getStateForNeighborUpdate"
-    ]
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": false
   },
   {
-    "class_name": "LeafLitterBlock",
-    "methods": [
-      "canPlaceAt",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "LeavesBlock",
-    "methods": [
-      "hasRandomTicks",
-      "randomTick",
-      "scheduledTick",
-      "getStateForNeighborUpdate",
-      "getPlacementState"
-    ]
-  },
-  {
-    "class_name": "VaultBlock",
+    "class_name": "CakeBlock",
     "methods": [
       "onUseWithItem",
-      "createBlockEntity",
-      "getPlacementState"
-    ]
+      "onUse",
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "getComparatorOutput",
+      "getComparatorOutput",
+      "hasComparatorOutput"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "NyliumBlock",
+    "class_name": "OxidizableSlabBlock",
     "methods": [
-      "randomTick"
-    ]
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractCoralBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BlockTypes",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SnifferEggBlock",
+    "methods": [
+      "scheduledTick",
+      "onBlockAdded"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SignBlockEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "EndPortalBlock",
+    "methods": [
+      "createBlockEntity",
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MapColor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PumpkinBlock",
+    "methods": [
+      "onUseWithItem"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NoteBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "neighborUpdate",
+      "onUseWithItem",
+      "onUse",
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PaleMossCarpetBlock",
+    "methods": [
+      "canPlaceAt",
+      "getPlacementState",
+      "onPlaced",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CopperChestBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "LecternBlockEntity",
+    "methods": [
+      "getComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CauldronBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ButtonBlock",
+    "methods": [
+      "onUse",
+      "onExploded",
+      "onStateReplaced",
+      "getWeakRedstonePower",
+      "getStrongRedstonePower",
+      "emitsRedstonePower",
+      "scheduledTick",
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PistonBlock",
+    "methods": [
+      "onPlaced",
+      "neighborUpdate",
+      "onBlockAdded",
+      "getPlacementState",
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TripwireHookBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getPlacementState",
+      "onPlaced",
+      "scheduledTick",
+      "onStateReplaced",
+      "getWeakRedstonePower",
+      "getStrongRedstonePower",
+      "emitsRedstonePower"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AttachedStemBlock",
+    "methods": [
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MultifaceGrowthBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ShearsDispenserBehavior",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SculkVeinGrowChecker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CartographyTableBlock",
+    "methods": [
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SmokerBlock",
+    "methods": [
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BigDripleafBlock",
+    "methods": [
+      "onProjectileHit",
+      "onProjectileHit",
+      "canPlaceAt",
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate",
+      "onEntityCollision",
+      "onEntityCollision",
+      "scheduledTick",
+      "scheduledTick",
+      "neighborUpdate",
+      "neighborUpdate",
+      "getPlacementState",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HayBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LightBlock",
+    "methods": [
+      "onUse",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShortPlantBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StructureVoidBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SnowBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "randomTick",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractSkullBlock",
+    "methods": [
+      "createBlockEntity",
+      "getPlacementState",
+      "neighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "GrindstoneBlock",
+    "methods": [
+      "canPlaceAt",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PoweredRailBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RailBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CopperGolemStatueBlock",
+    "methods": [
+      "getPlacementState",
+      "onUseWithItem",
+      "createBlockEntity",
+      "hasComparatorOutput",
+      "getComparatorOutput",
+      "onStateReplaced",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "Blocks",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SporeBlossomBlock",
+    "methods": [
+      "canPlaceAt",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MobSpawnerLogic",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TntBlock",
+    "methods": [
+      "onBlockAdded",
+      "neighborUpdate",
+      "onBreak",
+      "onUseWithItem",
+      "onProjectileHit"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FurnaceBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndGatewayBlock",
+    "methods": [
+      "createBlockEntity",
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableBulbBlock",
+    "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DriedGhastBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "scheduledTick",
+      "randomTick",
+      "getPlacementState",
+      "onPlaced"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "getPlacementState",
+      "canPlaceAt",
+      "scheduledTick",
+      "onBlockAdded"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StructureBlockBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DaylightDetectorBlock",
+    "methods": [
+      "getWeakRedstonePower",
+      "onUse",
+      "emitsRedstonePower",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AmethystBlock",
+    "methods": [
+      "onProjectileHit"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WallSkullBlock",
+    "methods": [
+      "getPlacementState"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "EntityShapeContext",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "NetherPortalBlock",
+    "methods": [
+      "randomTick",
+      "getStateForNeighborUpdate",
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HoneyBlock",
+    "methods": [
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlantBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": false
   },
   {
     "class_name": "MultifaceBlock",
@@ -1935,99 +2742,110 @@
       "getStateForNeighborUpdate",
       "canPlaceAt",
       "getPlacementState"
-    ]
+    ],
+    "is_real_class": false
   },
   {
-    "class_name": "BigDripleafStemBlock",
+    "class_name": "SnowyBlock",
     "methods": [
-      "canPlaceAt",
       "getStateForNeighborUpdate",
-      "scheduledTick"
-    ]
-  },
-  {
-    "class_name": "GlazedTerracottaBlock",
-    "methods": [
       "getPlacementState"
-    ]
+    ],
+    "is_real_class": false
   },
   {
-    "class_name": "WallRedstoneTorchBlock",
-    "methods": [
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "getPlacementState",
-      "getWeakRedstonePower"
-    ]
-  },
-  {
-    "class_name": "PropaguleBlock",
-    "methods": [
-      "getPlacementState",
-      "canPlaceAt",
-      "getStateForNeighborUpdate",
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "CopperChestBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "WallBlock",
-    "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
-  },
-  {
-    "class_name": "ComparatorBlock",
-    "methods": [
-      "getStateForNeighborUpdate",
-      "onUse",
-      "scheduledTick",
-      "onSyncedBlockEvent",
-      "createBlockEntity"
-    ]
-  },
-  {
-    "class_name": "OxidizableStairsBlock",
-    "methods": [
-      "randomTick",
-      "hasRandomTicks"
-    ]
-  },
-  {
-    "class_name": "LeverBlock",
-    "methods": [
-      "onUse",
-      "onExploded",
-      "onStateReplaced",
-      "getWeakRedstonePower",
-      "getStrongRedstonePower",
-      "emitsRedstonePower"
-    ]
-  },
-  {
-    "class_name": "AmethystBlock",
-    "methods": [
-      "onProjectileHit"
-    ]
-  },
-  {
-    "class_name": "PowderSnowBlock",
+    "class_name": "LilyPadBlock",
     "methods": [
       "onEntityCollision"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "FurnaceBlock",
+    "class_name": "SpawnerBlock",
     "methods": [
       "createBlockEntity"
-    ]
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BoatDispenserBehavior",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DropperBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractPlantBlock",
+    "methods": [
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "Listener",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChiseledBookshelfBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrappedChestBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CarpetBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "canPlaceAt"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BeaconBlock",
+    "methods": [
+      "createBlockEntity",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ExperimentalMinecartShapeContext",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DeadCoralFanBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TrialSpawnerData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShapeCache",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShortDryGrassBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShulkerBoxBlockEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
   },
   {
     "class_name": "WallTorchBlock",
@@ -2036,41 +2854,337 @@
       "canPlaceAt",
       "getPlacementState",
       "getStateForNeighborUpdate"
-    ]
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "StairsBlock",
+    "class_name": "DropperBlock",
     "methods": [
-      "getPlacementState",
-      "getStateForNeighborUpdate"
-    ]
+      "createBlockEntity"
+    ],
+    "is_real_class": true
   },
   {
-    "class_name": "RedstoneOreBlock",
-    "methods": [
-      "onUseWithItem",
-      "hasRandomTicks",
-      "randomTick"
-    ]
-  },
-  {
-    "class_name": "TestInstanceBlock",
-    "methods": [
-      "createBlockEntity",
-      "onUse"
-    ]
-  },
-  {
-    "class_name": "LightningRodBlock",
+    "class_name": "PitcherCropBlock",
     "methods": [
       "getPlacementState",
       "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "onEntityCollision",
+      "onPlaced",
+      "hasRandomTicks",
+      "randomTick",
+      "canPlaceAt"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SmallDripleafBlock",
+    "methods": [
+      "getPlacementState",
+      "getPlacementState",
+      "onPlaced",
+      "onPlaced",
+      "canPlaceAt",
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Callback",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TintedGlassBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TallPlantBlock",
+    "methods": [
+      "getStateForNeighborUpdate",
+      "getPlacementState",
+      "onPlaced",
+      "canPlaceAt",
+      "onBreak"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "MobSpawnerBlockEntity",
+    "methods": [
+      "onSyncedBlockEvent"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WitherRoseBlock",
+    "methods": [
+      "onEntityCollision"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SkullBlockEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableDoorBlock",
+    "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StonecutterBlock",
+    "methods": [
+      "getPlacementState",
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TallFlowerBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DetectorRailBlock",
+    "methods": [
+      "emitsRedstonePower",
+      "onEntityCollision",
+      "scheduledTick",
       "getWeakRedstonePower",
       "getStrongRedstonePower",
-      "scheduledTick",
-      "onStateReplaced",
       "onBlockAdded",
-      "emitsRedstonePower"
-    ]
+      "hasComparatorOutput",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CrafterBlockEntity",
+    "methods": [
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ConcretePowderBlock",
+    "methods": [
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BellBlock",
+    "methods": [
+      "neighborUpdate",
+      "onProjectileHit",
+      "onUse",
+      "getPlacementState",
+      "onExploded",
+      "getStateForNeighborUpdate",
+      "canPlaceAt",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Cursor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "KelpBlock",
+    "methods": [
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TwistingVinesBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractPlantPartBlock",
+    "methods": [
+      "getPlacementState",
+      "canPlaceAt",
+      "scheduledTick"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "RotatedInfestedBlock",
+    "methods": [
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WallSignBlock",
+    "methods": [
+      "canPlaceAt",
+      "getPlacementState",
+      "getStateForNeighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CaveVinesHeadBlock",
+    "methods": [
+      "onUse"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ViewerCountManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableLightningRodBlock",
+    "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeveledCauldronBlock",
+    "methods": [
+      "onEntityCollision",
+      "getComparatorOutput"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FluidBlock",
+    "methods": [
+      "hasRandomTicks",
+      "randomTick",
+      "onBlockAdded",
+      "getStateForNeighborUpdate",
+      "neighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CoralBlockBlock",
+    "methods": [
+      "scheduledTick",
+      "getStateForNeighborUpdate",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OxidizableChainBlock",
+    "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RodBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SoulSandBlock",
+    "methods": [
+      "scheduledTick",
+      "getStateForNeighborUpdate",
+      "onBlockAdded"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StructureBlock",
+    "methods": [
+      "createBlockEntity",
+      "onUse",
+      "onPlaced",
+      "neighborUpdate"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ObserverBlock",
+    "methods": [
+      "scheduledTick",
+      "getStateForNeighborUpdate",
+      "emitsRedstonePower",
+      "getStrongRedstonePower",
+      "getWeakRedstonePower",
+      "onBlockAdded",
+      "onStateReplaced",
+      "getPlacementState"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HorizontalConnectingBlock",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CactusFlowerBlock",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Pair",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractCauldronBlock",
+    "methods": [
+      "onUseWithItem",
+      "hasComparatorOutput",
+      "scheduledTick"
+    ],
+    "is_real_class": false
+  },
+  {
+    "class_name": "OxidizablePaneBlock",
+    "methods": [
+      "randomTick",
+      "hasRandomTicks"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BigDripleafStemBlock",
+    "methods": [
+      "canPlaceAt",
+      "canPlaceAt",
+      "getStateForNeighborUpdate",
+      "getStateForNeighborUpdate",
+      "scheduledTick",
+      "scheduledTick"
+    ],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HangingSignBlock",
+    "methods": [
+      "onUseWithItem",
+      "canPlaceAt",
+      "getPlacementState",
+      "getStateForNeighborUpdate",
+      "createBlockEntity"
+    ],
+    "is_real_class": true
   }
 ]

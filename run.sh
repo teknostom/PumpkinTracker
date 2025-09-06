@@ -10,9 +10,9 @@ cd yarn
 
 cd ..
 
-cargo run --release
-
-cd sources
-
-rm -rf Pumpkin/
-rm -rf yarn/
+# cargo run --release
+#
+# cd sources
+#
+# rm -rf Pumpkin/
+# rm -rf yarn/
