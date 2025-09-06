@@ -1,1296 +1,6 @@
 [
   {
-    "class_name": "SensorType",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AvoidLlamaGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WanderAroundOnSurfaceGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "IronGolemLookGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SwimGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "SittingFlamingPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbstractCowEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "WindChargeEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MateGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ActiveTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BadOmenStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EnderDragonPart",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Sensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HappyGhastEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VehicleEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "MeleeAttackTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TravelGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoglinBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HappyGhastBodyControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PandaRevengeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MobEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "AnimalMateGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "GuardianEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "TameableEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "BeeRevengeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayWithVillagerBabiesTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PathContext",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DestroyEggGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AnimationState",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "IronGolemEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Ram",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PigEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AboveGroundTargeting",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PaintingVariants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoldingPatternPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GhastlingNavigation",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WalkTowardsWaterTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveToFlowerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PanicTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FindPointOfInterestTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SilverfishEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PhaseType",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WindChargedStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LlamaSpitEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SaturationStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LoseJobOnSiteLossTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AvoidDaylightGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PiglinSpecificSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ChickenEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SleepWithOwnerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SingleTickTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Navigation",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DonkeyEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VillagerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TaskTriggerer",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TemptTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Tasks",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FollowMobGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SnifferBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SitDownAndLookAroundGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreatheAirGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToRememberedPositionTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MemoryQueryResult",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EnderPearlEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BoatEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ChaseWolvesGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DrownedMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DrownedAttackGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FollowParentGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NoPenaltyTargeting",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NearestItemsSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PrioritizedGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MooshroomEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayerEquipment",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WalkTowardsLandTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GrowCropsGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ConjureFangsGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CircleMovementGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StrayEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreeperEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FleeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreakingNavigation",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EndermanEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StingGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbstractWindChargeEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CamelMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AllayBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GolemLastSeenSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RetryMarker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DataTracker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ChestRaftEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Fading",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ParrotEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AquaticMoveControl",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "AbstractChestBoatEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "PathNodeTypeCache",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HideInHomeTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StartRidingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HungerStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RegenerationStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GuardianTargetPredicate",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TrackTargetGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "FollowCustomerTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HostileEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "AbstractBoatEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "ChaseBoatGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CodEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "IronGolemWanderAroundGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SonicBoomTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HuntFinishTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FaceTowardTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TypedEntityData",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SmallFireballEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveToHuntGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StatusEffects",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToVillageGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BlockDisplayEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ValidateFlowerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NearestVisibleAdultSensor",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "SniffingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VillagerWalkTowardsTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayDeadTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StrollTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VindicatorEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RabbitMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ScheduleRule",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TrackedPosition",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CatSitOnBlockGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ElderGuardianEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DummySensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShootFireballGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WardenAttackablesSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PolarBearEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Entity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "FallingBlockEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PeekGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CelebrateRaidWinTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ChestMinecartEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoldTradeOffersTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Activity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SnowballEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PiglinBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ExplosiveProjectileEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "MarkerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LieOnBackGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AxolotlData",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LargeEntitySpawnHelper",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AdmireItemTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeShootIfStuckTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PatrolApproachGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FuzzyTargeting",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DefaultAttributeRegistry",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EnderDragonEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SitOnOwnerShoulderGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TurtleSwimNavigation",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PassiveEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "EntityEquipment",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "PhantomBodyControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Path",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "JumpChasingGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "OozingStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "YawAdjustingLookControl",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "DiggingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WitchEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
     "class_name": "WalkTarget",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TargetOtherTeamGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToLookTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NoPenaltySolidTargeting",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BoggedEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BlockAttachedEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "SittingAttackingPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HappyGhastSwimGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TurtleEscapeDangerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveToTargetTask",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "DrownedEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WanderAroundFarGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "BlindTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PufferfishEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SchoolingFishEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "PiglinBruteSpecificSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WitherSkeletonEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoglinEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TargetAboveWaterGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CopperGolemBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LlamaEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "GoToBedAndSleepGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemCooldownManager",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RingBellTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LookAtTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PassiveData",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveIntoWaterGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TargetUtil",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ClampedEntityAttribute",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LivingTargetCache",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PhantomLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EndermiteEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FishMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HorseBondWithPlayerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MeleeAttackGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "MoveThroughVillageGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StopPanickingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NearestLivingEntitiesSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ZombieVillagerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PandaEscapeDangerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FlyOntoTreeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FlyRandomlyGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CommandBlockMinecartEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PositionInterpolator",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FormCaravanGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TropicalFishEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StatusEffect",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "PathNodeNavigator",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DigTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FinishDiggingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntityType",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PhaseManager",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EvokerFangsEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Interval",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WaterCreatureEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "MoveToRaidCenterGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbstractDonkeyEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CopperGolemOxidationLevels",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FarmerVillagerTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FindHiveGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArmadilloScareDetectedSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "UnrollAndFleeTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SitGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpiderNavigation",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GiveInvisibilityGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PandaFleeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShootBulletGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ScheduleRuleEntry",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToPointOfInterestTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "JumpInBedTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShulkerBodyControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpectralArrowEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PersistentProjectileEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "WaterAnimalEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "PlayerAbilities",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PandaMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpawnConditions",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveToHiveGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FleeTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BeeWanderAroundGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SwimWithPlayerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PoisonStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StatusEffectInstance",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WololoGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RevengeGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "GiantEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ExperimentalMinecartController",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WanderInWaterGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FlightMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ProjectileAttackGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CallForHelpGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StingTargetGoal",
     "methods": [],
     "is_real_class": true
   },
@@ -1300,497 +10,7 @@
     "is_real_class": false
   },
   {
-    "class_name": "VillagerHostilesSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CamelEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AttackHomeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ProjectileEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CamelBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SlideAroundTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BossBarManager",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "IsInWaterSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArmadilloBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VillagerWorkTask",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "WorkStationCompetitionTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SniffTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Memory",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SwoopMovementGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EscapeAttackerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WolfEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TaskContext",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FireworkRocketEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AttributeContainer",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DefendFriendGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveToTargetPosGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "TargetPlayerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoglinSpecificSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PhantomMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PigVariants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TntEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoalSelector",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GiveInventoryToLookTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "InteractionEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AmphibiousSwimNavigation",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "Goal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "Cracks",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EscapeWhenNotAggressiveGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GlowSquidEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NavigationConditions",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SummonVexGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AttackGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StorageMinecartEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "IllusionerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToSecondaryPositionTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HuntHoglinTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PollinateGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ExperienceOrbEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FleeEntityGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreakDoorGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TakeoffPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HuskEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeShootTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FrogBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FlyGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "MoveControl",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "TargetPathNode",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SquidEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "MeetVillagerTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoverPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SwimAroundGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CrossbowAttackGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EndRaidTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpiderEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "SleepTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoHomeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "InflateGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LookAtTargetOrWololoTarget",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FishingBobberEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SplashPotionEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BowAttackGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TeleportTowardsPlayerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HappyGhastTemptGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TurtleEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LayFrogSpawnTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "UpdateJobSiteTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PathAwareEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "ValidateHiveGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SwimToRandomPlaceGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WantNewItemTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StepAndDestroyBlockGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "FindTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StatusEffectUtil",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HungerConstants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PickUpFoodGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EndCrystalEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HideWhenBellRingsTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TadpoleBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FarmerWorkTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MemoryEntry",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SecondaryPointsOfInterestSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LookControl",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "SkeletonHorseEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbstractDecorationEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "InstantStatusEffect",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "RandomLookGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SkeletonEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DamageTracker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PandaEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BirdNavigation",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "LookAroundTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MultiTickTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpiderData",
+    "class_name": "CreakingMoveControl",
     "methods": [],
     "is_real_class": true
   },
@@ -1800,1107 +20,32 @@
     "is_real_class": true
   },
   {
-    "class_name": "MinecartController",
+    "class_name": "EnterHiveGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CopperGolemEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PoisonStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MobNavigation",
     "methods": [],
     "is_real_class": false
   },
   {
-    "class_name": "PolarBearRevengeGoal",
+    "class_name": "IronGolemEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "MannequinEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TrackIronGolemTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LeashData",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ExperienceBottleEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GolemEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "EscapeDangerGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "RavagerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpawnerMinecartEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TemptGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "WanderAndInfestGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StriderEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FindInteractionTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntityLookTarget",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreakingLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RemoveOffHandItemTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MovementGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ForgetAngryAtTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ActivityEntry",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MinecartEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LightningEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoatBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CalmDownGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShulkerLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EvokerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BatEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToPosTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FoxEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FindRoarTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayWithItemsGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToHomeTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ForgetAttackTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SlimeMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "OcelotTemptGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SalmonEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AmphibiousPathNodeMaker",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "PounceAtTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EmergeTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreakingJumpControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FrogSwimPathNodeMaker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SpellcastingIllagerEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "ThrownEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "ZombifiedPiglinEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EscapeSunlightGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CommandExecutor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FishEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "WardenEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "IllagerEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "MobVisibilityCache",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RamImpactTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CrossbowAttackTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreakingLandPathNodeMaker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WardenAngerManager",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RabbitJumpControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShulkerBulletEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EatGrassGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DamageSource",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VillagerTaskListProvider",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CamelLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WitherSkullEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VibrationCallback",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BirdPathNodeMaker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PathMinHeap",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PowderSnowJumpGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbstractPiglinEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "LayEggGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ServerBossBar",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "TadpoleEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AvoidSunlightGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AxolotlMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FireballEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EggEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TameableShoulderEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "AbstractMinecartEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "SpawnRestriction",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BeeLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GuardianMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FoxMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NearestBedSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SittingScanningPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HopperMinecartEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "InfestedStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WeavingStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FollowGroupLeaderGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayerLikeEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "AbstractHorseEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "WanderToTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ZombieAttackGoal",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "RaidOmenStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreeperIgniteGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NearestFollowableFriendlyMobSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WanderNearTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NearestVisibleLivingEntitySensor",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "PiglinBruteBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GhastMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PathNode",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "LazyEntityReference",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LongJumpTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RangedApproachTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "OcelotEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LookAtMobTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FindEntityTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FrogLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemFrameEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "RaidGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StartAttackGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DescendAtHalfHealthGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GlowItemFrameEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StartRaidTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreakingBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SearchingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveItemsTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PacifyTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArmorStandEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CatFleeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntityAttributeInstance",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ForgetCompletedPointOfInterestTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Profile",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CatEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntityAttributes",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SwimmingGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RabbitEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TurtleMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RollUpTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CreakingEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HungerManager",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DefaultAttributeContainer",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FollowOwnerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SnowGolemEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MagmaCubeEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FrogEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeAttackablesSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WalkTowardsLookTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TextDisplayEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArrowEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AttackWithOwnerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SneezeGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeMovementUtil",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ProtectBabiesGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TraderLlamaEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SitOrStandTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ArmadilloEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TakeJobSiteTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayDeadTimerTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Builder",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AxolotlBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LimbAnimator",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MemoryTransferTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Impl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CompositeTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TrackOwnerAttackerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SheepEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DyingPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EnderDragonFrameTracker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeJumpTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DragonFireballEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbstractSittingPhase",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "TrackOwnerTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbstractFireballEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CamelBodyControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WanderOnLandGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PrepareRamTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SeekSkyTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AttackTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ProjectileUtil",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlaceBlockGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EatBerriesGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MemoryModuleType",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ShulkerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CowVariants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WanderingTraderEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ScheduleBuilder",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ChickenVariants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StartSniffingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Data",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WolfSoundVariants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PlayerInventory",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AbsorptionStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FeelHappyTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DolphinJumpGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SnifferEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TickCooldownTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VexEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "OminousItemSpawnerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoToCloserPointOfInterestTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WardenBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PiglinEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreedTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "NoWaterTargeting",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AxolotlAttackablesSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VillagerBabiesSensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WolfVariants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CastSpellGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HappyGhastBrain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AreaEffectCloudEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WanderAroundPointOfInterestGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "UniversalAngerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "UpdateLookControlTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LivingEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "VillagerBreedTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GatherItemsVillagerTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DamageUtil",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WolfBegGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FuzzyPositions",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EyeOfEnderEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PillagerEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RoarTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ScheduleActivityTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PiglinBruteEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PatrolEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "RidingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AllayEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoBackToLavaGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Brain",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BodyControl",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "GhastEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ThrownItemEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "RaftEntity",
+    "class_name": "GoAroundTask",
     "methods": [],
     "is_real_class": true
   },
@@ -2910,17 +55,37 @@
     "is_real_class": true
   },
   {
-    "class_name": "JumpControl",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "DismountVehicleTask",
+    "class_name": "PickUpBannerAsLeaderGoal",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "CommandBossBar",
+    "class_name": "StatusEffect",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "InfestedStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CamelMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChickenVariants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WorkStationCompetitionTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "IronGolemWanderAroundGoal",
     "methods": [],
     "is_real_class": true
   },
@@ -2930,49 +95,314 @@
     "is_real_class": false
   },
   {
-    "class_name": "LookAtDisturbanceTask",
+    "class_name": "SecondaryPointsOfInterestSensor",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "FrogAttackablesSensor",
+    "class_name": "PhantomBodyControl",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "AdmireItemTimeLimitTask",
+    "class_name": "SpawnerMinecartEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "NearestPlayersSensor",
+    "class_name": "CatFleeGoal",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "ScentingTask",
+    "class_name": "CopperGolemBrain",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "HorseEntity",
+    "class_name": "CreakingEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "LingeringPotionEntity",
+    "class_name": "HoverPhase",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "BlockPosLookTarget",
+    "class_name": "TypedEntityData",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "StopWanderingGoal",
+    "class_name": "Memory",
     "methods": [],
     "is_real_class": true
+  },
+  {
+    "class_name": "NoPenaltySolidTargeting",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrackedDataHandlerRegistry",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WanderAroundPointOfInterestGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AttackGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FollowParentGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ZombieHorseEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FeelHappyTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DisableableFollowTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RabbitJumpControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AmbientStandGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RandomLookGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SkeletonHorseEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SleepTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LlamaEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CamelBodyControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LandPathNodeMaker",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "Entry",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SnifferBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SplashPotionEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MultiTickTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveToHuntGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AnimalEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "RaidOmenStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HuskEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BirdNavigation",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PandaEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SalmonEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MemoryEntry",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ExperienceOrbEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FinishDiggingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrackIronGolemTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ConjureFangsGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PollinateGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DefaultAttributeRegistry",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SitOrStandTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StartRaidTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Profile",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "JumpInBedTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Impl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChestRaftEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CallForHelpGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FlyGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "LayEggGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TadpoleBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ZombieAttackGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TrackedPosition",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TaskContext",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LoseJobOnSiteLossTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MeetVillagerTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoToHomeTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WantNewItemTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LivingTargetCache",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ServerBossBar",
+    "methods": [],
+    "is_real_class": false
   },
   {
     "class_name": "SeekWaterTask",
@@ -2980,7 +410,177 @@
     "is_real_class": true
   },
   {
-    "class_name": "TntMinecartEntity",
+    "class_name": "WardenAttackablesSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreezeEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HungerConstants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SniffTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ElytraFlightController",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DataTracker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SchoolingFishEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "FlyOntoTreeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoatBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EntityAttribute",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BirdPathNodeMaker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Schedule",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ActivityEntry",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SearchingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WorriableEntityFilter",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StriderEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayWithVillagerBabiesTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VillagerWorkTask",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "HuntFinishTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrogEatEntityTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChaseBoatGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SittingAttackingPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ForgetAttackTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayWithItemsGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DefeatTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ElderGuardianEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EntityLookTarget",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PowderSnowJumpGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PillagerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlazeEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SwimNavigation",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ZombieEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TargetPredicate",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HoglinSpecificSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Data",
     "methods": [],
     "is_real_class": true
   },
@@ -2990,12 +590,1767 @@
     "is_real_class": true
   },
   {
-    "class_name": "BoneMealTask",
+    "class_name": "GoToVillageGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DefaultAttributeContainer",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PathNodeMaker",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TemptationsSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GiantEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreakingJumpControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "UpdateAttackTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ThrownEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "HoldTradeOffersTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BodyControl",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "NavigationConditions",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveToTargetTask",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PufferfishEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SlideAroundTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PiglinEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AxolotlLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PathNodeTypeCache",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HungerStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BadOmenStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GhastEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AquaticMoveControl",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "InflateGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CowVariants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TropicalFishEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "UnrollAndFleeTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayerEquipment",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MooshroomEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SwimAroundGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "HappyGhastTemptGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VillagerBreedTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AdmireItemTimeLimitTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SwimWithPlayerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrackTargetGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SitOnOwnerShoulderGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AmbientEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AreaEffectCloudEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Fading",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DoorInteractGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "GoToRememberedPositionTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Variants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VexEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WanderNearTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SwimmingGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FoxEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WolfEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FleeTask",
     "methods": [],
     "is_real_class": true
   },
   {
     "class_name": "DelayedCalmDownGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrogSwimNavigation",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ForgetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PhantomEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PhantomMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GhastMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TridentEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AttackHomeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AdmireItemTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WeavingStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrackOwnerAttackerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NearestBedSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NearestFollowableFriendlyMobSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LongJumpTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PandaEscapeDangerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AvoidLlamaGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FishEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "EntityAttributes",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GiveGiftsToHeroTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PeekGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SlimeEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CommandBossBar",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TadpoleEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreedTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SeekSkyTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FindHiveGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SittingFlamingPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PolarBearEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AxolotlEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractHorseEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ChasePlayerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TrackOwnerTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EscapeDangerGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "GuardianTargetPredicate",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EatBerriesGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveItemsTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StepAndDestroyBlockGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ValidateHiveGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WakeUpTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpitRevengeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ForgetBellRingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RetryMarker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DamageUtil",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PiglinBruteBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AboveGroundTargeting",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AxolotlAttackablesSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ZoglinEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WitherSkullEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PiglinBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EvokerFangsEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TridentAttackGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractSittingPhase",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SaturationStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreezeJumpTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PandaRevengeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrogSwimPathNodeMaker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoIndoorsTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BowAttackGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NearestPlayersSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PathAwareEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SittingScanningPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LlamaSpitEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AxolotlMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WolfBegGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TemptTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookAtDisturbanceTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SleepWithOwnerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveIntoWaterGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreeperIgniteGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HungerManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FollowGroupLeaderGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Tasks",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FleeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VindicatorEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SkeletonEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ValidateFlowerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ThrownItemEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "StingGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AnimationState",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CodEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PotionEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SwimToRandomPlaceGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CamelBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PacifyTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GolemEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AbstractPiglinEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TakeJobSiteTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DismountVehicleTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireballEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TurtleSwimNavigation",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SquidEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WanderingTraderEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NoPenaltyTargeting",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TameableShoulderEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WaitTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderDragonFight",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BoatEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreatheAirGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EntityAttachments",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VibrationCallback",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CircleMovementGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreezeShootTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BoggedEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PrioritizedGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CamelEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreezeAttackablesSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveThroughVillageGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SingleTickTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HoglinBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TickCooldownTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MeleeAttackGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SnowGolemEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PaintingVariants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpawnRestriction",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CroakTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveControl",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "LookAtTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EyeOfEnderEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HideInHomeTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderPearlEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpiderNavigation",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RamImpactTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndermiteEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DigTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PandaFleeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoatEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ProjectileAttackGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AxolotlData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CowEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OpenDoorsTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AxolotlBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TameableEscapeDangerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "IronGolemLookGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DragonFireballEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrogEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemDisplayEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ScheduleRule",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ArmadilloScareDetectedSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WanderAroundFarGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "RavagerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ZombieVillagerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EggEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VillagerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CatEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SheepEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ProtectBabiesGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeashKnotEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StatusEffectUtil",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HappyGhastLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Path",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MeleeAttackTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SmallFireballEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TntEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeeEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpawnConditions",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RaiderEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SwimGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "RabbitMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayDeadTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PhantomLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndCrystalEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveToTargetPosGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CreakingBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LandingApproachPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoToLookTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HuntHoglinTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DefaultMinecartController",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeaveWaterGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FoxSwimGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HappyGhastSwimGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShulkerLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ScheduleActivityTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LandingPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreezeWindChargeEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VillagerHostilesSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FollowOwnerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NearestItemsSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LimbAnimator",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoToPointOfInterestTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PiglinBruteEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SitGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WalkTowardsFuzzyPosTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WalkTowardsWaterTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FarmerWorkTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WalkTowardsJobSiteTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AmphibiousPathNodeMaker",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PatrolEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PlaceBlockGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PigEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GrowCropsGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Navigation",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FollowCustomerTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ParrotEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StopFollowingCustomerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeashData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ArrowEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderDragonFrameTracker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LazyEntityReference",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SaddledComponent",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AmphibiousSwimNavigation",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "StorageMinecartEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "FurnaceMinecartEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Goal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ArmadilloBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Cracks",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreakingLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GlowSquidEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeeWanderAroundGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "UniversalAngerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PiglinBruteSpecificSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MovementGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChargingPlayerPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoToWalkTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TurtleEscapeDangerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RidingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ScheduleBuilder",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WardenBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PatrolApproachGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "JukeboxEventListener",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AttackWithOwnerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemFrameEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TurtleEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeapingChargeTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndermanEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ExperienceBottleEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EntityEquipment",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "RingBellTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SlimeMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookAroundTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WaterCreatureEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PathNode",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TargetUtil",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DrownedAttackGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SonicBoomTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DiggingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FindEntityTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WardenEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShulkerBulletEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TravelGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TameableEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PathNodeNavigator",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TargetPathNode",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockPosLookTarget",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SnowballEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EscapeSunlightGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "VillagerWalkTowardsTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PhaseType",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MemoryTransferTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DrownedMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StatusEffectInstance",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TargetOtherTeamGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireBeamGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractChestBoatEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AbstractCowEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "UpdateJobSiteTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MateGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PandaMateGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EntityType",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ForgetAngryAtTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StingTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreezeMovementUtil",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SwoopMovementGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PrepareRamTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DestroyEggGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "InteractionEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HorseEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoBackToLavaGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayerInventory",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PatrolGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FarmerVillagerTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StartSniffingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AllayEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StartRidingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PathContext",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BeeRevengeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PickUpFoodGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VillagerBabiesSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractDecorationEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TextDisplayEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Builder",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OcelotEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PandaMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "JumpControl",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WardenAngerManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "IsInWaterSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "YawAdjustingLookControl",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "FrogLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GolemLastSeenSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WindChargedStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ProjectileUtil",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PigVariants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DefendTraderGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HappyGhastBodyControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookAtTargetOrWololoTarget",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HoldInHandsGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WalkTowardsNearestVisibleWantedItemTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LingeringPotionEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Activity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DescendAtHalfHealthGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StopWanderingGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayerLikeEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "GoToBedAndSleepGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CamelLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ScheduleRuleEntry",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EatGrassGoal",
     "methods": [],
     "is_real_class": true
   },
@@ -3010,252 +2365,52 @@
     "is_real_class": true
   },
   {
-    "class_name": "WalkTowardsFuzzyPosTask",
+    "class_name": "EntityAttributeInstance",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "InstantHealthOrDamageStatusEffect",
+    "class_name": "PolarBearRevengeGoal",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "MerchantEntity",
+    "class_name": "LieOnBackGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WanderInWaterGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DyingPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RaftEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TemptGoal",
     "methods": [],
     "is_real_class": false
   },
   {
-    "class_name": "LookAtMobWithIntervalTask",
+    "class_name": "SnifferEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "Schedule",
+    "class_name": "RoarTask",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "BreezeEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeWindChargeEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BossBar",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "FrogEatEntityTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TargetPredicate",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LandPathNodeMaker",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "AbstractPhase",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "GoatEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DolphinEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LookAroundGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LookAtCustomerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FrogSwimNavigation",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ForgetBellRingTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DamageSources",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WitherEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WaitTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LeapingChargeTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "Entry",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HurtBySensor",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MobNavigation",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "LandingApproachPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StayAboveWaterTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SheepColors",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntityAttachments",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AmbientEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "SkeletonHorseTrapTriggerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DefeatTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PatrolGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoIndoorsTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EatCarrotCropGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "EntityAttribute",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "EnterHiveGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WalkTowardsEntityTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GiveGiftsToHeroTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DisableableFollowTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PhantomEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BlazeEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CroakTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "OpenDoorsTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ChargingPlayerPhase",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FoxLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AnimalEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "TridentEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ItemDisplayEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WalkTowardsNearestVisibleWantedItemTask",
+    "class_name": "BeeLookControl",
     "methods": [],
     "is_real_class": true
   },
@@ -3265,242 +2420,47 @@
     "is_real_class": true
   },
   {
-    "class_name": "PickUpBlockGoal",
+    "class_name": "HoldingPatternPhase",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "GoToWalkTargetGoal",
+    "class_name": "FallingBlockEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "ChasePlayerGoal",
+    "class_name": "WitchEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "FurnaceMinecartEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LeadToNearbyTreasureGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WorriableEntityFilter",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "MoveIteration",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "UntamedActiveTargetGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TameableEscapeDangerGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DoorInteractGoal",
+    "class_name": "HostileEntity",
     "methods": [],
     "is_real_class": false
   },
   {
-    "class_name": "ElytraFlightController",
+    "class_name": "SheepColors",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "EnderDragonFight",
+    "class_name": "TargetGoal",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "SwimNavigation",
+    "class_name": "MemoryQueryResult",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "AxolotlLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AxolotlEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PaintingEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ForgetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HappyGhastLookControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LeaveWaterGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ZombieEntity",
+    "class_name": "BossBar",
     "methods": [],
     "is_real_class": false
   },
   {
-    "class_name": "Variants",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SlimeEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "JukeboxEventListener",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "LeashKnotEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "SaddledComponent",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PickUpBannerAsLeaderGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TridentAttackGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "GoAroundTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "AmbientStandGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "VexMoveControl",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PotionEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "AbstractSkeletonEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "Dismounting",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BreezeSlideTowardsTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "RaiderEntity",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "CamelWalkTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "BeeEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "DefendTraderGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "CowEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "FoxSwimGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "PathNodeMaker",
-    "methods": [],
-    "is_real_class": false
-  },
-  {
-    "class_name": "WalkTowardsJobSiteTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WaterPathNodeMaker",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "HoldInHandsGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "ZoglinEntity",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "WitherStatusEffect",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "UpdateAttackTargetTask",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "StopFollowingCustomerGoal",
+    "class_name": "SkeletonHorseTrapTriggerGoal",
     "methods": [],
     "is_real_class": true
   },
@@ -3510,27 +2470,27 @@
     "is_real_class": true
   },
   {
-    "class_name": "TrackedDataHandlerRegistry",
+    "class_name": "MuleEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "CopperGolemEntity",
+    "class_name": "NearestVisibleAdultSensor",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TaskTriggerer",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "LandingPhase",
+    "class_name": "WanderToTargetGoal",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "PandaMateGoal",
-    "methods": [],
-    "is_real_class": true
-  },
-  {
-    "class_name": "TemptationsSensor",
+    "class_name": "GatherItemsVillagerTask",
     "methods": [],
     "is_real_class": true
   },
@@ -3540,12 +2500,137 @@
     "is_real_class": false
   },
   {
-    "class_name": "FireBeamGoal",
+    "class_name": "Dismounting",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "CaveSpiderEntity",
+    "class_name": "FlyRandomlyGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ClampedEntityAttribute",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DefendFriendGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HideWhenBellRingsTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DrownedEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WitherSkeletonEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShootBulletGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StrollTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Sensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Ram",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrogAttackablesSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DolphinEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShulkerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OcelotTemptGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreakDoorGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WalkTowardsLandTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GuardianMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AllayBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SummonVexGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ItemCooldownManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AvoidSunlightGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EvokerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FaceTowardTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MobEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "HappyGhastBrain",
     "methods": [],
     "is_real_class": true
   },
@@ -3555,27 +2640,627 @@
     "is_real_class": true
   },
   {
-    "class_name": "NotAngryGoal",
+    "class_name": "HurtBySensor",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "CreakingMoveControl",
+    "class_name": "PathMinHeap",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "ZombieHorseEntity",
+    "class_name": "TargetAboveWaterGoal",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "DefaultMinecartController",
+    "class_name": "InstantStatusEffect",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ChestMinecartEntity",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "SpitRevengeGoal",
+    "class_name": "HappyGhastEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Interval",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PositionInterpolator",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PersistentProjectileEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "TargetPlayerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WanderOnLandGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HorseBondWithPlayerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NoWaterTargeting",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Entity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BreezeBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PanicTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RabbitEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookAroundGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreakingNavigation",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockAttachedEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "FlightMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GiveInventoryToLookTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveToRaidCenterGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VexMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LargeEntitySpawnHelper",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderDragonEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FishingBobberEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ExperimentalMinecartController",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "VillagerTaskListProvider",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EscapeWhenNotAggressiveGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MinecartEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FormCaravanGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CaveSpiderEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractFireballEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "FishMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EndRaidTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WolfVariants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BatEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreeperEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FrogBrain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PounceAtTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WololoGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WanderAndInfestGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AttributeContainer",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveToHiveGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpellcastingIllagerEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "CommandExecutor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LightningEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RemoveOffHandItemTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DamageTracker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CatSitOnBlockGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractPhase",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SilverfishEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PassiveData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PhaseManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LayFrogSpawnTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveToFlowerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ArmorStandEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FindInteractionTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TurtleMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NearestVisibleLivingEntitySensor",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "InstantHealthOrDamageStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SneezeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractBoatEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "GoToCloserPointOfInterestTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MobVisibilityCache",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpectralArrowEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DolphinJumpGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LongDoorInteractGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GhastlingNavigation",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RevengeGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PiglinSpecificSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StatusEffects",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AnimalMateGoal",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "GoHomeGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RaidGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ActiveTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StayAboveWaterTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlindTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShulkerBodyControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MarkerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbsorptionStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DummySensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DamageSources",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EatCarrotCropGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoToSecondaryPositionTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LeadToNearbyTreasureGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractMinecartEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BossBarManager",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WitherEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CamelWalkTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WindChargeEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MinecartController",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "AbstractDonkeyEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "FoxMoveControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DonkeyEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CalmDownGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookControl",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ChickenEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookAtMobWithIntervalTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ArmadilloEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CopperGolemOxidationLevels",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "IllusionerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CrossbowAttackGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WanderAroundOnSurfaceGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StrayEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MannequinEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EnderDragonPart",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoToPosTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GuardianEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WaterAnimalEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "PlayDeadTimerTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WalkTowardsEntityTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BreezeSlideTowardsTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AttackTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CrossbowAttackTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CompositeTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CreakingLandPathNodeMaker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractSkeletonEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "RollUpTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FollowMobGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AbstractWindChargeEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "UpdateLookControlTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CelebrateRaidWinTask",
     "methods": [],
     "is_real_class": true
   },
@@ -3585,17 +3270,332 @@
     "is_real_class": false
   },
   {
-    "class_name": "LongDoorInteractGoal",
+    "class_name": "FuzzyTargeting",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "MuleEntity",
+    "class_name": "RegenerationStatusEffect",
     "methods": [],
     "is_real_class": true
   },
   {
-    "class_name": "WakeUpTask",
+    "class_name": "VehicleEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "GlowItemFrameEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MagmaCubeEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CommandBlockMinecartEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MemoryModuleType",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookAtCustomerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PickUpBlockGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HoglinEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GoalSelector",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ScentingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OozingStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FuzzyPositions",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ShootFireballGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ProjectileEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WaterPathNodeMaker",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpiderEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "UntamedActiveTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FleeEntityGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LookAtMobTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ForgetCompletedPointOfInterestTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "OminousItemSpawnerEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NotAngryGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TakeoffPhase",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TraderLlamaEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FindPointOfInterestTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ChaseWolvesGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "RangedApproachTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EscapeAttackerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MoveIteration",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SniffingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "HopperMinecartEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TeleportTowardsPlayerGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StartAttackGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FoxLookControl",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BoneMealTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PlayerAbilities",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SitDownAndLookAroundGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "DamageSource",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FindTargetGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "EmergeTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PaintingEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "TntMinecartEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "CastSpellGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "MerchantEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "WitherStatusEffect",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "Brain",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FindRoarTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "FireworkRocketEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "PassiveEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "SensorType",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "IllagerEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "JumpChasingGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WalkTowardsLookTargetTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "GiveInvisibilityGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "LivingEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "BreezeShootIfStuckTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "StopPanickingTask",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "SpiderData",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "AvoidDaylightGoal",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "WolfSoundVariants",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "BlockDisplayEntity",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "NearestLivingEntitiesSensor",
+    "methods": [],
+    "is_real_class": true
+  },
+  {
+    "class_name": "ExplosiveProjectileEntity",
+    "methods": [],
+    "is_real_class": false
+  },
+  {
+    "class_name": "ZombifiedPiglinEntity",
     "methods": [],
     "is_real_class": true
   }

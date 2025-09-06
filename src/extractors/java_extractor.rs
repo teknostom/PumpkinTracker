@@ -67,7 +67,10 @@ pub fn parse_java_files<T: MinecraftComponent>(path: &str) -> Vec<ClassMethods> 
                     }
                 }
 
-                if !method_name.is_empty() && T::is_core_method(&method_name) {
+                if !method_name.is_empty()
+                    && T::is_core_method(&method_name)
+                    && !class_info.methods.contains(&method_name)
+                {
                     class_info.methods.push(method_name);
                 }
             }
