@@ -5,20 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pumpkin Block Implementation Tracker</title>
     <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #21262d;
+            --border-color: #30363d;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --text-muted: #656d76;
+            --accent-green: #238636;
+            --accent-green-light: #2ea043;
+            --accent-orange: #da7633;
+            --accent-yellow: #d29922;
+            --accent-red: #da3633;
+            --accent-blue: #1f6feb;
+            --progress-bg: #21262d;
+            --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            --radius: 8px;
+            --radius-small: 6px;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
             margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
+            padding: 0;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
         }
         
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: white;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
         .header {
@@ -26,123 +49,307 @@
             margin-bottom: 30px;
         }
         
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+        
+        .overall-progress {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow);
+        }
+        
+        .overall-progress h2 {
+            margin: 0 0 15px 0;
+            font-size: 1.25rem;
+            color: var(--text-primary);
+        }
+        
+        .main-progress-bar {
+            width: 100%;
+            height: 12px;
+            background: var(--progress-bg);
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .main-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-red), var(--accent-orange), var(--accent-yellow), var(--accent-green));
+            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 6px;
+        }
+        
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 15px;
             margin-bottom: 30px;
         }
         
         .stat-card {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 6px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: var(--radius);
             text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: var(--shadow);
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
         }
         
         .stat-number {
-            font-size: 2em;
-            font-weight: bold;
-            color: #2c3e50;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 5px;
         }
         
         .stat-label {
-            color: #666;
-            margin-top: 5px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
         }
         
         .filters {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             display: flex;
-            gap: 10px;
+            gap: 12px;
             flex-wrap: wrap;
+            align-items: center;
         }
         
         .filter-input {
-            padding: 8px 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            padding: 10px 14px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-small);
             font-size: 14px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .filter-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.1);
+        }
+        
+        .filter-input::placeholder {
+            color: var(--text-muted);
+        }
+        
+        .results-count {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-left: auto;
         }
         
         .class-grid {
             display: grid;
-            gap: 15px;
+            gap: 20px;
         }
         
         .class-card {
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            padding: 15px;
-            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 20px;
+            background: var(--bg-secondary);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+            box-shadow: var(--shadow);
+        }
+        
+        .class-card:hover {
+            transform: translateY(-1px);
+            border-color: var(--accent-blue);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
         }
         
         .class-header {
             display: flex;
-            justify-content: between;
+            justify-content: space-between;
             align-items: center;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
         }
         
         .class-name {
-            font-weight: bold;
-            font-size: 1.1em;
+            font-weight: 600;
+            font-size: 1.15rem;
+            color: var(--text-primary);
+        }
+        
+        .progress-section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            min-width: 220px;
+        }
+        
+        .progress-text-small {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
         }
         
         .progress-bar {
             width: 200px;
             height: 8px;
-            background: #e9ecef;
+            background: var(--progress-bg);
             border-radius: 4px;
             overflow: hidden;
+            border: 1px solid var(--border-color);
         }
         
         .progress-fill {
             height: 100%;
-            transition: width 0.3s ease;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 4px;
         }
         
-        .progress-0 { background: #dc3545; }
-        .progress-low { background: #fd7e14; }
-        .progress-medium { background: #ffc107; }
-        .progress-high { background: #28a745; }
-        .progress-100 { background: #20c997; }
+        .progress-0 { background: var(--accent-red); }
+        .progress-low { background: var(--accent-orange); }
+        .progress-medium { background: var(--accent-yellow); }
+        .progress-high { background: var(--accent-green); }
+        .progress-100 { background: var(--accent-green-light); }
         
         .methods-list {
-            margin-top: 10px;
+            margin-top: 15px;
+        }
+        
+        .methods-title {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            font-weight: 500;
         }
         
         .method-item {
             display: inline-block;
-            margin: 2px 4px;
-            padding: 4px 8px;
-            border-radius: 12px;
+            margin: 3px 5px 3px 0;
+            padding: 6px 10px;
+            border-radius: 16px;
             font-size: 12px;
             font-weight: 500;
+            transition: transform 0.2s ease;
+        }
+        
+        .method-item:hover {
+            transform: scale(1.05);
         }
         
         .method-implemented {
-            background: #d4edda;
-            color: #155724;
+            background: rgba(35, 134, 54, 0.2);
+            color: var(--accent-green-light);
+            border: 1px solid rgba(35, 134, 54, 0.3);
         }
         
         .method-not-implemented {
-            background: #f8d7da;
-            color: #721c24;
+            background: rgba(218, 54, 51, 0.2);
+            color: #ff7b72;
+            border: 1px solid rgba(218, 54, 51, 0.3);
+        }
+        
+        .loading, .error {
+            text-align: center;
+            padding: 60px 20px;
+            border-radius: var(--radius);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
         }
         
         .loading {
-            text-align: center;
-            padding: 40px;
-            color: #666;
+            color: var(--text-secondary);
         }
         
         .error {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 20px 0;
+            background: rgba(218, 54, 51, 0.1);
+            color: #ff7b72;
+            border-color: rgba(218, 54, 51, 0.3);
+        }
+        
+        .loading-spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid var(--border-color);
+            border-top: 3px solid var(--accent-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .class-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .progress-section {
+                align-items: flex-start;
+                min-width: auto;
+                width: 100%;
+            }
+            
+            .progress-bar {
+                width: 100%;
+            }
+            
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .filter-input {
+                width: 100%;
+            }
+            
+            .results-count {
+                margin-left: 0;
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -151,6 +358,17 @@
         <div class="header">
             <h1>Pumpkin Block Implementation Tracker</h1>
             <p>Tracking Rust implementation progress against Minecraft Java blocks</p>
+        </div>
+        
+        <div id="overallProgress" class="overall-progress" style="display: none;">
+            <h2>Overall Implementation Progress</h2>
+            <div class="main-progress-bar">
+                <div id="mainProgressFill" class="main-progress-fill" style="width: 0%"></div>
+            </div>
+            <div class="progress-text">
+                <span id="progressDetails">0 of 0 methods implemented</span>
+                <span id="progressPercentage">0.0%</span>
+            </div>
         </div>
         
         <div id="stats" class="stats-grid">
@@ -171,43 +389,74 @@
                 <option value="name">Sort by Name</option>
                 <option value="progress-desc">Sort by Progress (High to Low)</option>
                 <option value="progress-asc">Sort by Progress (Low to High)</option>
+                <option value="methods-desc">Sort by Method Count (High to Low)</option>
             </select>
+            <div id="resultsCount" class="results-count"></div>
         </div>
         
-        <div id="loading" class="loading">Loading implementation data...</div>
+        <div id="loading" class="loading">
+            <div class="loading-spinner"></div>
+            Loading implementation data...
+        </div>
         <div id="error" class="error" style="display: none;"></div>
         <div id="classGrid" class="class-grid" style="display: none;"></div>
     </div>
 
     <script>
-        // TypeScript-style interfaces (will work in modern browsers)
-        
         let classData = [];
         let filteredData = [];
+        let jsonData = {};
         
         async function loadData() {
             try {
-                // Replace with your actual JSON file path
-                const response = await fetch('./outputs/pumpkin_blocks_analysis.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                // Try multiple possible paths for the JSON file
+                const possiblePaths = [
+                    './pumpkin_blocks_analysis.json',
+                    './outputs/pumpkin_blocks_analysis.json',
+                    './data/pumpkin_blocks_analysis.json'
+                ];
+                
+                let response;
+                let loadedPath = '';
+                
+                for (const path of possiblePaths) {
+                    try {
+                        response = await fetch(path);
+                        if (response.ok) {
+                            loadedPath = path;
+                            break;
+                        }
+                    } catch (e) {
+                        // Continue to next path
+                    }
                 }
+                
+                if (!response || !response.ok) {
+                    throw new Error('Could not find pumpkin_blocks_analysis.json file');
+                }
+                
                 jsonData = await response.json();
-                classData = jsonData.classes;
+                classData = jsonData.classes || [];
                 filteredData = [...classData];
                 
                 document.getElementById('loading').style.display = 'none';
+                document.getElementById('overallProgress').style.display = 'block';
                 document.getElementById('classGrid').style.display = 'block';
                 
+                renderOverallProgress();
                 renderStats();
                 renderClasses();
                 setupEventListeners();
+                updateResultsCount();
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('loading').style.display = 'none';
                 const errorDiv = document.getElementById('error');
                 errorDiv.style.display = 'block';
-                errorDiv.textContent = `Error loading data: ${error.message}. Make sure class_tracking.json is in the same directory.`;
+                errorDiv.innerHTML = `
+                    <strong>Error loading data:</strong> ${error.message}<br>
+                    <small>Make sure pumpkin_blocks_analysis.json is accessible in one of these locations: ./pumpkin_blocks_analysis.json, ./outputs/, or ./data/</small>
+                `;
             }
         }
         
@@ -241,19 +490,24 @@
             return stats;
         }
         
-        function renderStats() {
+        function renderOverallProgress() {
             const stats = calculateStats();
             const overallPercentage = stats.totalMethods === 0 ? 0 : 
                 (stats.implementedMethods / stats.totalMethods) * 100;
+            
+            document.getElementById('mainProgressFill').style.width = `${overallPercentage}%`;
+            document.getElementById('progressDetails').textContent = 
+                `${stats.implementedMethods} of ${stats.totalMethods} methods implemented`;
+            document.getElementById('progressPercentage').textContent = `${overallPercentage.toFixed(1)}%`;
+        }
+        
+        function renderStats() {
+            const stats = calculateStats();
             
             document.getElementById('stats').innerHTML = `
                 <div class="stat-card">
                     <div class="stat-number">${stats.totalClasses}</div>
                     <div class="stat-label">Total Classes</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${overallPercentage.toFixed(1)}%</div>
-                    <div class="stat-label">Overall Progress</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">${stats.fullyImplemented}</div>
@@ -266,6 +520,10 @@
                 <div class="stat-card">
                     <div class="stat-number">${stats.partiallyImplemented}</div>
                     <div class="stat-label">Partially Implemented</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.barelyImplemented}</div>
+                    <div class="stat-label">Barely Implemented</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">${stats.notImplemented}</div>
@@ -285,13 +543,23 @@
         function renderClasses() {
             const grid = document.getElementById('classGrid');
             
+            if (filteredData.length === 0) {
+                grid.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--text-secondary);">
+                        No classes match the current filters.
+                    </div>
+                `;
+                return;
+            }
+            
             grid.innerHTML = filteredData.map(classItem => {
                 const implemented = classItem.methods.filter(m => m.status === 'Implemented').length;
                 const total = classItem.methods.length;
                 const percentage = total === 0 ? 0 : (implemented / total) * 100;
                 
                 const methodsHtml = classItem.methods.map(method => `
-                    <span class="method-item ${method.status === 'Implemented' ? 'method-implemented' : 'method-not-implemented'}">
+                    <span class="method-item ${method.status === 'Implemented' ? 'method-implemented' : 'method-not-implemented'}" 
+                          title="${method.method_name} - ${method.status}">
                         ${method.method_name}
                     </span>
                 `).join('');
@@ -300,9 +568,9 @@
                     <div class="class-card">
                         <div class="class-header">
                             <div class="class-name">${classItem.class_name}</div>
-                            <div>
-                                <div style="text-align: right; margin-bottom: 5px; font-size: 14px;">
-                                    ${implemented}/${total} (${percentage.toFixed(1)}%)
+                            <div class="progress-section">
+                                <div class="progress-text-small">
+                                    ${implemented}/${total} methods (${percentage.toFixed(1)}%)
                                 </div>
                                 <div class="progress-bar">
                                     <div class="progress-fill ${getProgressClass(percentage)}" 
@@ -310,10 +578,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="methods-list">${methodsHtml}</div>
+                        <div class="methods-list">
+                            <div class="methods-title">Methods:</div>
+                            ${methodsHtml}
+                        </div>
                     </div>
                 `;
             }).join('');
+        }
+        
+        function updateResultsCount() {
+            const count = filteredData.length;
+            const total = classData.length;
+            document.getElementById('resultsCount').textContent = 
+                count === total ? `${total} classes` : `${count} of ${total} classes`;
         }
         
         function filterAndSortData() {
@@ -348,6 +626,8 @@
                 switch (sortBy) {
                     case 'name':
                         return a.class_name.localeCompare(b.class_name);
+                    case 'methods-desc':
+                        return b.methods.length - a.methods.length;
                     case 'progress-desc':
                     case 'progress-asc':
                         const aImpl = a.methods.filter(m => m.status === 'Implemented').length;
@@ -365,6 +645,7 @@
             });
             
             renderClasses();
+            updateResultsCount();
         }
         
         function setupEventListeners() {
