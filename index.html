@@ -503,27 +503,47 @@
             const barelyPerc = (stats.barelyImplemented / totalClasses) * 100;
             const notPerc = (stats.notImplemented / totalClasses) * 100;
             
-            // Update segment widths
-            document.getElementById('segmentFully').style.width = `${fullyPerc}%`;
-            document.getElementById('segmentMostly').style.width = `${mostlyPerc}%`;
-            document.getElementById('segmentPartially').style.width = `${partiallyPerc}%`;
-            document.getElementById('segmentBarely').style.width = `${barelyPerc}%`;
-            document.getElementById('segmentNot').style.width = `${notPerc}%`;
+            // Update segment widths with null checks
+            const segmentFully = document.getElementById('segmentFully');
+            const segmentMostly = document.getElementById('segmentMostly');
+            const segmentPartially = document.getElementById('segmentPartially');
+            const segmentBarely = document.getElementById('segmentBarely');
+            const segmentNot = document.getElementById('segmentNot');
             
-            // Update tooltips with counts
-            document.getElementById('segmentFully').title = `Fully Implemented: ${stats.fullyImplemented} classes (${fullyPerc.toFixed(1)}%)`;
-            document.getElementById('segmentMostly').title = `Mostly Implemented: ${stats.mostlyImplemented} classes (${mostlyPerc.toFixed(1)}%)`;
-            document.getElementById('segmentPartially').title = `Partially Implemented: ${stats.partiallyImplemented} classes (${partiallyPerc.toFixed(1)}%)`;
-            document.getElementById('segmentBarely').title = `Barely Implemented: ${stats.barelyImplemented} classes (${barelyPerc.toFixed(1)}%)`;
-            document.getElementById('segmentNot').title = `Not Implemented: ${stats.notImplemented} classes (${notPerc.toFixed(1)}%)`;
+            if (segmentFully) {
+                segmentFully.style.width = `${fullyPerc}%`;
+                segmentFully.title = `Fully Implemented: ${stats.fullyImplemented} classes (${fullyPerc.toFixed(1)}%)`;
+            }
+            if (segmentMostly) {
+                segmentMostly.style.width = `${mostlyPerc}%`;
+                segmentMostly.title = `Mostly Implemented: ${stats.mostlyImplemented} classes (${mostlyPerc.toFixed(1)}%)`;
+            }
+            if (segmentPartially) {
+                segmentPartially.style.width = `${partiallyPerc}%`;
+                segmentPartially.title = `Partially Implemented: ${stats.partiallyImplemented} classes (${partiallyPerc.toFixed(1)}%)`;
+            }
+            if (segmentBarely) {
+                segmentBarely.style.width = `${barelyPerc}%`;
+                segmentBarely.title = `Barely Implemented: ${stats.barelyImplemented} classes (${barelyPerc.toFixed(1)}%)`;
+            }
+            if (segmentNot) {
+                segmentNot.style.width = `${notPerc}%`;
+                segmentNot.title = `Not Implemented: ${stats.notImplemented} classes (${notPerc.toFixed(1)}%)`;
+            }
             
-            // Update text details
+            // Update text details with null checks
             const overallMethodPercentage = stats.totalMethods === 0 ? 0 : 
                 (stats.implementedMethods / stats.totalMethods) * 100;
             
-            document.getElementById('progressDetails').textContent = 
-                `${stats.implementedMethods} of ${stats.totalMethods} methods implemented`;
-            document.getElementById('progressPercentage').textContent = `${overallMethodPercentage.toFixed(1)}%`;
+            const progressDetails = document.getElementById('progressDetails');
+            const progressPercentage = document.getElementById('progressPercentage');
+            
+            if (progressDetails) {
+                progressDetails.textContent = `${stats.implementedMethods} of ${stats.totalMethods} methods implemented`;
+            }
+            if (progressPercentage) {
+                progressPercentage.textContent = `${overallMethodPercentage.toFixed(1)}%`;
+            }
         }
         
         function renderStats() {
