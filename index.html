@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pumpkin Block Implementation Tracker</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .filters {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-input {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .class-grid {
+            display: grid;
+            gap: 15px;
+        }
+        
+        .class-card {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            background: white;
+        }
+        
+        .class-header {
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .class-name {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .progress-bar {
+            width: 200px;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+        
+        .progress-0 { background: #dc3545; }
+        .progress-low { background: #fd7e14; }
+        .progress-medium { background: #ffc107; }
+        .progress-high { background: #28a745; }
+        .progress-100 { background: #20c997; }
+        
+        .methods-list {
+            margin-top: 10px;
+        }
+        
+        .method-item {
+            display: inline-block;
+            margin: 2px 4px;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .method-implemented {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .method-not-implemented {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pumpkin Block Implementation Tracker</h1>
+            <p>Tracking Rust implementation progress against Minecraft Java blocks</p>
+        </div>
+        
+        <div id="stats" class="stats-grid">
+            <!-- Stats will be populated here -->
+        </div>
+        
+        <div class="filters">
+            <input type="text" id="searchInput" class="filter-input" placeholder="Search classes...">
+            <select id="statusFilter" class="filter-input">
+                <option value="">All Classes</option>
+                <option value="100">Fully Implemented (100%)</option>
+                <option value="75">Mostly Implemented (75-99%)</option>
+                <option value="25">Partially Implemented (25-74%)</option>
+                <option value="1">Barely Implemented (1-24%)</option>
+                <option value="0">Not Implemented (0%)</option>
+            </select>
+            <select id="sortSelect" class="filter-input">
+                <option value="name">Sort by Name</option>
+                <option value="progress-desc">Sort by Progress (High to Low)</option>
+                <option value="progress-asc">Sort by Progress (Low to High)</option>
+            </select>
+        </div>
+        
+        <div id="loading" class="loading">Loading implementation data...</div>
+        <div id="error" class="error" style="display: none;"></div>
+        <div id="classGrid" class="class-grid" style="display: none;"></div>
+    </div>
+
+    <script>
+        // TypeScript-style interfaces (will work in modern browsers)
+        
+        let classData = [];
+        let filteredData = [];
+        
+        async function loadData() {
+            try {
+                // Replace with your actual JSON file path
+                const response = await fetch('./outputs/pumpkin_block_analysis.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                classData = await response.json();
+                filteredData = [...classData];
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('classGrid').style.display = 'block';
+                
+                renderStats();
+                renderClasses();
+                setupEventListeners();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').style.display = 'none';
+                const errorDiv = document.getElementById('error');
+                errorDiv.style.display = 'block';
+                errorDiv.textContent = `Error loading data: ${error.message}. Make sure class_tracking.json is in the same directory.`;
+            }
+        }
+        
+        function calculateStats() {
+            const stats = {
+                totalClasses: classData.length,
+                totalMethods: 0,
+                implementedMethods: 0,
+                fullyImplemented: 0,
+                mostlyImplemented: 0,
+                partiallyImplemented: 0,
+                barelyImplemented: 0,
+                notImplemented: 0
+            };
+            
+            classData.forEach(classItem => {
+                const implemented = classItem.methods.filter(m => m.status === 'Implemented').length;
+                const total = classItem.methods.length;
+                const percentage = total === 0 ? 0 : (implemented / total) * 100;
+                
+                stats.totalMethods += total;
+                stats.implementedMethods += implemented;
+                
+                if (percentage === 100) stats.fullyImplemented++;
+                else if (percentage >= 75) stats.mostlyImplemented++;
+                else if (percentage >= 25) stats.partiallyImplemented++;
+                else if (percentage > 0) stats.barelyImplemented++;
+                else stats.notImplemented++;
+            });
+            
+            return stats;
+        }
+        
+        function renderStats() {
+            const stats = calculateStats();
+            const overallPercentage = stats.totalMethods === 0 ? 0 : 
+                (stats.implementedMethods / stats.totalMethods) * 100;
+            
+            document.getElementById('stats').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-number">${stats.totalClasses}</div>
+                    <div class="stat-label">Total Classes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${overallPercentage.toFixed(1)}%</div>
+                    <div class="stat-label">Overall Progress</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.fullyImplemented}</div>
+                    <div class="stat-label">Fully Implemented</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.mostlyImplemented}</div>
+                    <div class="stat-label">Mostly Implemented</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.partiallyImplemented}</div>
+                    <div class="stat-label">Partially Implemented</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.notImplemented}</div>
+                    <div class="stat-label">Not Implemented</div>
+                </div>
+            `;
+        }
+        
+        function getProgressClass(percentage) {
+            if (percentage === 100) return 'progress-100';
+            if (percentage >= 75) return 'progress-high';
+            if (percentage >= 25) return 'progress-medium';
+            if (percentage > 0) return 'progress-low';
+            return 'progress-0';
+        }
+        
+        function renderClasses() {
+            const grid = document.getElementById('classGrid');
+            
+            grid.innerHTML = filteredData.map(classItem => {
+                const implemented = classItem.methods.filter(m => m.status === 'Implemented').length;
+                const total = classItem.methods.length;
+                const percentage = total === 0 ? 0 : (implemented / total) * 100;
+                
+                const methodsHtml = classItem.methods.map(method => `
+                    <span class="method-item ${method.status === 'Implemented' ? 'method-implemented' : 'method-not-implemented'}">
+                        ${method.method_name}
+                    </span>
+                `).join('');
+                
+                return `
+                    <div class="class-card">
+                        <div class="class-header">
+                            <div class="class-name">${classItem.class_name}</div>
+                            <div>
+                                <div style="text-align: right; margin-bottom: 5px; font-size: 14px;">
+                                    ${implemented}/${total} (${percentage.toFixed(1)}%)
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill ${getProgressClass(percentage)}" 
+                                         style="width: ${percentage}%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="methods-list">${methodsHtml}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function filterAndSortData() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const statusFilter = document.getElementById('statusFilter').value;
+            const sortBy = document.getElementById('sortSelect').value;
+            
+            // Filter
+            filteredData = classData.filter(classItem => {
+                const matchesSearch = classItem.class_name.toLowerCase().includes(searchTerm);
+                
+                if (!statusFilter) return matchesSearch;
+                
+                const implemented = classItem.methods.filter(m => m.status === 'Implemented').length;
+                const total = classItem.methods.length;
+                const percentage = total === 0 ? 0 : (implemented / total) * 100;
+                
+                let matchesStatus = false;
+                switch (statusFilter) {
+                    case '100': matchesStatus = percentage === 100; break;
+                    case '75': matchesStatus = percentage >= 75 && percentage < 100; break;
+                    case '25': matchesStatus = percentage >= 25 && percentage < 75; break;
+                    case '1': matchesStatus = percentage > 0 && percentage < 25; break;
+                    case '0': matchesStatus = percentage === 0; break;
+                }
+                
+                return matchesSearch && matchesStatus;
+            });
+            
+            // Sort
+            filteredData.sort((a, b) => {
+                switch (sortBy) {
+                    case 'name':
+                        return a.class_name.localeCompare(b.class_name);
+                    case 'progress-desc':
+                    case 'progress-asc':
+                        const aImpl = a.methods.filter(m => m.status === 'Implemented').length;
+                        const aTotal = a.methods.length;
+                        const aPerc = aTotal === 0 ? 0 : (aImpl / aTotal) * 100;
+                        
+                        const bImpl = b.methods.filter(m => m.status === 'Implemented').length;
+                        const bTotal = b.methods.length;
+                        const bPerc = bTotal === 0 ? 0 : (bImpl / bTotal) * 100;
+                        
+                        return sortBy === 'progress-desc' ? bPerc - aPerc : aPerc - bPerc;
+                    default:
+                        return 0;
+                }
+            });
+            
+            renderClasses();
+        }
+        
+        function setupEventListeners() {
+            document.getElementById('searchInput').addEventListener('input', filterAndSortData);
+            document.getElementById('statusFilter').addEventListener('change', filterAndSortData);
+            document.getElementById('sortSelect').addEventListener('change', filterAndSortData);
+        }
+        
+        // Load data when page loads
+        loadData();
+    </script>
+</body>
+</html>
