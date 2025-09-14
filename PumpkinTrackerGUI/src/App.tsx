@@ -54,9 +54,21 @@ export default () => {
 			</header>
 			<div className={styles.content}>
 				<Card title="Total" progress={totalProgress} />
-				<Card title="Blocks" link="/blocks" progress={blockProgress} />
-				<Card title="Items" link="/items" progress={itemProgress} />
-				<Card title="Entities" link="/entities" progress={entityProgress} />
+				<Card
+					title="Blocks"
+					link="/PumpkinTracker/blocks"
+					progress={blockProgress}
+				/>
+				<Card
+					title="Items"
+					link="/PumpkinTracker/items"
+					progress={itemProgress}
+				/>
+				<Card
+					title="Entities"
+					link="/PumpkinTracker/entities"
+					progress={entityProgress}
+				/>
 			</div>
 		</>
 	);
