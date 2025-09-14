@@ -30,14 +30,15 @@ jobs:
         with:
           node-version: '24'  # Adjust version as needed
           cache: 'npm'
+          cache-dependency-path: './PumpkinTrackerGUI/package-lock.json'
 
       - name: Install dependencies
         run: npm ci
-        working-directory: ./repo/PumpkinTrackerGUI
+        working-directory: ./PumpkinTrackerGUI
 
       - name: Build project
         run: npm run build
-        working-directory: ./repo/PumpkinTrackerGUI
+        working-directory: ./PumpkinTrackerGUI
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -45,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './repo/PumpkinTrackerGUI/dist'
+          path: './PumpkinTrackerGUI/dist'
 
   deploy:
     environment:
