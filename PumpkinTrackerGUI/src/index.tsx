@@ -10,7 +10,7 @@ if (rootEl) {
 	const root = ReactDOM.createRoot(rootEl);
 	root.render(
 		<React.StrictMode>
-			<HashRouter basename="/PumpkinTracker">
+			<HashRouter>
 				<Routes>
 					<Route path="/blocks" element={<Table data={blockData} />} />
 					<Route path="/items" element={<Table data={blockData} />} />
