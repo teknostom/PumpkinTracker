@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import styles from "./Card.module.css";
+import { Link } from "react-router";
 
 export interface Progress {
 	fullyImplemented: number;
@@ -70,9 +71,10 @@ export default function Card({ title, link, progress }: Props): ReactNode {
 					}}
 				></div>
 			</div>
-			<div
+			<Link
+				to={link ?? "#"}
 				className={styles.footer}
-				onClick={() => link && navigateToTable(link)}
+				// onClick={() => link && navigateToTable(link)}
 			>
 				<h3>{title}</h3>
 				{link && (
@@ -92,7 +94,7 @@ export default function Card({ title, link, progress }: Props): ReactNode {
 						/>
 					</svg>
 				)}
-			</div>
+			</Link>
 		</div>
 	);
 }
