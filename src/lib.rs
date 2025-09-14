@@ -42,6 +42,11 @@ pub trait MinecraftComponent {
         None
     }
 
+    fn get_java_equivalent(rust_method: &str) -> Option<&'static str> {
+        let mapping = Self::method_mapping();
+        mapping.get(rust_method).cloned()
+    }
+
     /// Get output file names for this component
     fn output_files() -> ComponentOutputFiles {
         ComponentOutputFiles {

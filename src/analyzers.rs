@@ -11,7 +11,7 @@ pub fn analyze_implementation<T: MinecraftComponent>(
     let mut tracking = Vec::new();
     let rust_map: HashMap<_, _> = rust_classes
         .iter()
-        .map(|c| (c.class_name.as_str(), &c.methods))
+        .map(|c| (c.class_name.to_lowercase(), &c.methods))
         .collect();
 
     let real_java_classes: Vec<_> = java_classes
@@ -22,12 +22,6 @@ pub fn analyze_implementation<T: MinecraftComponent>(
         .filter(|c| !c.class_name.ends_with("BlockEntity"))
         .collect();
 
-    println!(
-        "Filtered {} real Java classes from {} total",
-        real_java_classes.len(),
-        java_classes.len()
-    );
-
     let java_map: HashMap<_, _> = real_java_classes
         .iter()
         .map(|c| (c.class_name.as_str(), &c.methods))
@@ -35,7 +29,10 @@ pub fn analyze_implementation<T: MinecraftComponent>(
 
     for (class_name, java_methods) in &java_map {
         let empty_methods = Vec::new();
-        let rust_methods = rust_map.get(class_name).cloned().unwrap_or(&empty_methods);
+        let rust_methods = rust_map
+            .get(&class_name.to_lowercase())
+            .cloned()
+            .unwrap_or(&empty_methods);
         let mut method_tracking = Vec::new();
 
         for java_method in java_methods.iter() {
@@ -76,7 +73,9 @@ pub fn analyze_implementation<T: MinecraftComponent>(
 
 pub fn run_analysis<T: MinecraftComponent>() -> AnalysisResult {
     let (rust_classes, java_classes) = crate::extractors::extract_component_info::<T>();
-    let tracking = analyze_implementation::<T>(&rust_classes, &java_classes);
+    let mut tracking = analyze_implementation::<T>(&rust_classes, &java_classes);
+
+    tracking.sort_by(|a, b| a.class_name.cmp(&b.class_name));
 
     let analysis_result = AnalysisResult {
         component_type: T::component_type().to_string(),

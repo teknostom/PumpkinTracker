@@ -1,0 +1,101 @@
+.header {
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90vw;
+	margin: 5vw 20px 0 5vw;
+}
+
+.filters {
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 90vw;
+	margin: 20px 5vw;
+}
+
+.filterLabel {
+	font-size: 14px;
+	font-weight: 500;
+	color: #ccc;
+	margin-bottom: 8px;
+}
+
+.table {
+	font-family: "Montserrat", sans-serif;
+	width: 90vw;
+	margin: 0 5vw 5vw 5vw;
+	background-color: #1f1f20;
+	color: #ccc;
+	border-radius: 10px;
+	border-collapse: collapse;
+}
+
+.th {
+	background-color: #ff8c00;
+	text-align: left;
+	color: #fff;
+	border: 0;
+	padding: 0 20px;
+	height: 50px;
+}
+
+.table tbody tr {
+	height: 40px;
+}
+
+.table tbody tr td {
+	padding: 0 20px;
+	border: 1px solid #333;
+}
+
+.th:first-child {
+	border-top-left-radius: 10px;
+}
+
+.th:last-child {
+	border-top-right-radius: 10px;
+}
+
+.statusContainer {
+	display: "flex";
+	align-items: "center";
+	gap: "8px";
+}
+
+.progressBarContainer {
+	width: 60px;
+	height: 8px;
+	background-color: #e5e7eb;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.progressBar {
+	border-radius: 4px;
+	height: 100%;
+}
+
+.progressBar {
+	height: 100%;
+	border-radius: 4px;
+}
+
+.methodPills {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.methodPill {
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 12px;
+	margin: 4px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #fff;
+	white-space: nowrap;
+}
