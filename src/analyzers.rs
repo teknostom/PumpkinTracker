@@ -63,7 +63,7 @@ pub fn analyze_implementation<T: MinecraftComponent>(
             percentage_implemented: if total_count > 0 {
                 (implemented_count as f32 / total_count as f32) * 100.0
             } else {
-                100.0
+                0.0
             },
         });
     }
@@ -92,7 +92,7 @@ pub fn run_analysis<T: MinecraftComponent>() -> AnalysisResult {
                 .sum();
             (implemented_methods as f32 / total_methods as f32) * 100.0
         } else {
-            100.0
+            0.0
         },
         classes: tracking,
     };

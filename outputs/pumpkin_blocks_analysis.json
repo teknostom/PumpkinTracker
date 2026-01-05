@@ -40,11 +40,11 @@
       "methods": [
         {
           "method_name": "scheduledTick",
-          "status": "NotImplemented"
+          "status": "Implemented"
         },
         {
           "method_name": "randomTick",
-          "status": "NotImplemented"
+          "status": "Implemented"
         },
         {
           "method_name": "canPlaceAt",
@@ -52,10 +52,10 @@
         },
         {
           "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
+          "status": "Implemented"
         }
       ],
-      "percentage_implemented": 25.0
+      "percentage_implemented": 100.0
     },
     {
       "class_name": "BambooShootBlock",
@@ -116,10 +116,10 @@
       "methods": [
         {
           "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
+          "status": "Implemented"
         }
       ],
-      "percentage_implemented": 0.0
+      "percentage_implemented": 100.0
     },
     {
       "class_name": "BeaconBlock",
@@ -970,7 +970,7 @@
       "methods": [
         {
           "method_name": "onUse",
-          "status": "NotImplemented"
+          "status": "Implemented"
         },
         {
           "method_name": "getStateForNeighborUpdate",
@@ -981,7 +981,7 @@
           "status": "NotImplemented"
         }
       ],
-      "percentage_implemented": 0.0
+      "percentage_implemented": 33.333336
     },
     {
       "class_name": "EyeblossomBlock",
@@ -1492,10 +1492,10 @@
       "methods": [
         {
           "method_name": "getStateForNeighborUpdate",
-          "status": "NotImplemented"
+          "status": "Implemented"
         }
       ],
-      "percentage_implemented": 0.0
+      "percentage_implemented": 100.0
     },
     {
       "class_name": "MushroomBlock",
@@ -1544,10 +1544,10 @@
       "methods": [
         {
           "method_name": "randomTick",
-          "status": "NotImplemented"
+          "status": "Implemented"
         }
       ],
-      "percentage_implemented": 0.0
+      "percentage_implemented": 100.0
     },
     {
       "class_name": "NoteBlock",
@@ -2328,22 +2328,22 @@
       "methods": [
         {
           "method_name": "randomTick",
-          "status": "NotImplemented"
+          "status": "Implemented"
         },
         {
           "method_name": "onEntityCollision",
-          "status": "NotImplemented"
+          "status": "Implemented"
         },
         {
           "method_name": "onUseWithItem",
-          "status": "NotImplemented"
+          "status": "Implemented"
         },
         {
           "method_name": "onUse",
-          "status": "NotImplemented"
+          "status": "Implemented"
         }
       ],
-      "percentage_implemented": 0.0
+      "percentage_implemented": 100.0
     },
     {
       "class_name": "TallSeagrassBlock",
@@ -2662,5 +2662,5 @@
       "percentage_implemented": 0.0
     }
   ],
-  "percentage_implemented": 30.568718
+  "percentage_implemented": 33.175354
 }
